@@ -1,12 +1,7 @@
 <theme>
 	<view name="system">
 		<image name="foreground system" >
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
 			<path>./_inc/images/System_Foreground_4_3.png</path>
-			<stationary>withinView</stationary>
-			<zIndex>50</zIndex>
 		</image>
 	</view>
 </theme>

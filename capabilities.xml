@@ -9,13 +9,13 @@
 	<!--Transitions-->
 	<transitions name="transitions">
 		<label>Default</label>
-		<selectable>false</selectable>
-		<systemToSystem>fade</systemToSystem>
+		<selectable>slide</selectable>
+		<systemToSystem>slide</systemToSystem>
 		<systemToGamelist>slide</systemToGamelist>
-		<gamelistToGamelist>fade</gamelistToGamelist>
+		<gamelistToGamelist>slide</gamelistToGamelist>
 		<gamelistToSystem>slide</gamelistToSystem>
 		<startupToSystem>slide</startupToSystem>
-		<startupToGamelist>fade</startupToGamelist>
+		<startupToGamelist>slide</startupToGamelist>
 	</transitions>
 	
 	<suppressTransitionProfiles>
