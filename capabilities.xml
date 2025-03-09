@@ -1,5 +1,28 @@
 <themeCapabilities>
-   
 	<themeName>Meringue_es_de_RG406</themeName>
-
+	
+	<!--Aspect Ratios-->
+	<aspectRatio>4:3</aspectRatio>
+	<aspectRatio>1:1</aspectRatio>
+	<aspectRatio>16:9</aspectRatio>
+	
+	<!--Transitions-->
+	<transitions name="transitions">
+		<label>Default</label>
+		<selectable>false</selectable>
+		<systemToSystem>fade</systemToSystem>
+		<systemToGamelist>slide</systemToGamelist>
+		<gamelistToGamelist>fade</gamelistToGamelist>
+		<gamelistToSystem>slide</gamelistToSystem>
+		<startupToSystem>slide</startupToSystem>
+		<startupToGamelist>fade</startupToGamelist>
+	</transitions>
+	
+	<suppressTransitionProfiles>
+		<entry>builtin-instant</entry>
+		<entry>builtin-slide</entry>
+		<entry>builtin-fade</entry>
+	</suppressTransitionProfiles>
+	
+	
 </themeCapabilities>

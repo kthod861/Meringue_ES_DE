@@ -1,8 +1,32 @@
-<!--
-theme name: 	Meringue
-license:      	creative commons CC-BY-NC-SA
--->
-
 <theme>
+	<variables>
+		<bgOpacity>0.3</bgOpacity>
+		<fontSizeBody>0.03</fontSizeBody> 
+		<font_path>./_inc/fonts/font.ttf</font_path>
+	</variables>
+
+
+	<!--System View-->
+	<view name="system">
+		<!-- Background -->
+		<image name="background system">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<default>./_inc/systems/background_4_3/_default.jpg</default>
+			<path>./_inc/systems/background_4_3/${system.theme}.jpg</path>
+			<zIndex>1</zIndex>
+		</image>
+	</view>
 	
+	
+	
+	<!--Hide help-->
+	<view name="system,gamelist">
+		<helpsystem name="help">
+			<origin>0 0</origin>
+			<pos>1 1</pos>
+			<opacity>0</opacity>
+		</helpsystem>
+	</view>
 </theme>
