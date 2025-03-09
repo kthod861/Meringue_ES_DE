@@ -17,33 +17,6 @@
 	</aspectRatio>
 
 
-
-	<!--System View-->
-	<view name="system">
-		<carousel name="systemcarousel">
-			<pos>0 0.2</pos>
-			<size>1 0.8</size>
-			<staticImage>./_inc/systems/controllers/${system.theme}.png</staticImage>
-			<color>${bgColor}00</color>
-			<itemSize>0.20 0.20 </itemSize>
-			<itemScale>3</itemScale>
-			<selectedItemMargins>0.25 0.25</selectedItemMargins>
-			<unfocusedItemOpacity>0</unfocusedItemOpacity>
-			<fastScrolling>true</fastScrolling>
-			<zIndex>40</zIndex>
-		</carousel>
-		<!-- Background -->
-		<image name="background system">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<default>./_inc/systems/background_4_3/_default.jpg</default>
-			<path>./_inc/systems/background_4_3/${system.theme}.jpg</path>
-			<zIndex>30</zIndex>
-		</image>
-	</view>
-	
-	
 	
 	<!--Hide help-->
 	<view name="system,gamelist">

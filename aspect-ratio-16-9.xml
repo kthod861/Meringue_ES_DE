@@ -3,5 +3,9 @@
 		<image name="foreground system" >
 			<path>./_inc/images/System_Foreground_16_9.png</path>
 		</image>
+
+		<text name="Manufacturer">
+			<pos>0.5 0.27</pos>
+		</text>
 	</view>
 </theme>
