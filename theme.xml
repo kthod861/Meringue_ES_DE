@@ -1,13 +1,29 @@
 <theme>
 	<variables>
-		<bgOpacity>0.3</bgOpacity>
 		<fontSizeBody>0.03</fontSizeBody> 
 		<font_path>./_inc/fonts/font.ttf</font_path>
 	</variables>
+	<!-- default-->
+	<include>./aspect-ratio-4-3.xml</include>
+	<!-- per ratio -->
+	<aspectRatio name="16:9">
+		<include>./aspect-ratio-16-9.xml</include>
+	</aspectRatio>
+	<aspectRatio name="4:3">
+		<include>./aspect-ratio-4-3.xml</include>
+	</aspectRatio>
+	<aspectRatio name="1:1">
+		<include>./aspect-ratio-1-1.xml</include>
+	</aspectRatio>
+
 
 
 	<!--System View-->
 	<view name="system">
+		<carousel name="systemcarousel">
+			<zIndex>40</zIndex>
+		</carousel>
+		
 		<!-- Background -->
 		<image name="background system">
 			<origin>0 0</origin>
@@ -15,7 +31,7 @@
 			<size>1 1</size>
 			<default>./_inc/systems/background_4_3/_default.jpg</default>
 			<path>./_inc/systems/background_4_3/${system.theme}.jpg</path>
-			<zIndex>1</zIndex>
+			<zIndex>30</zIndex>
 		</image>
 	</view>
 	
