@@ -10,7 +10,7 @@
 	<transitions name="transitions">
 		<label>Default</label>
 		<selectable>slide</selectable>
-		<systemToSystem>slide</systemToSystem>
+		<systemToSystem>fade</systemToSystem>
 		<systemToGamelist>slide</systemToGamelist>
 		<gamelistToGamelist>slide</gamelistToGamelist>
 		<gamelistToSystem>slide</gamelistToSystem>
