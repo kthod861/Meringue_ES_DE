@@ -7,5 +7,8 @@
 		<text name="Manufacturer">
 			<pos>0.5 0.27</pos>
 		</text>
+		<text name="Game_number">
+			<pos>0.9 0.34</pos>
+		</text>
 	</view>
 </theme>
