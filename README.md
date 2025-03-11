@@ -11,10 +11,14 @@ At the moment almost everything comes from [libretro-thumbnails](https://github.
 
 
 TODO: <br />
-- Everything
+- 1:1 Foreground shadow is not correctly supported
+- GameList implementation
+- Try a Lottie basic animation to make logos appear in a better way ( probably a wrong idea )
+- Recreate all backgrounds with a better resolution, they are dirty atm
 
 DONE: <br />
-
+- Ratio management system should be ok now and handle all situations
+- System infos and controler tweaks in all ratio
   
 
 Big up to "Meringue", "Ant", "SymBuzzer", "Shadow" and more for the help they've provided here and there .
