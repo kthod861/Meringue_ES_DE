@@ -1,21 +1,13 @@
 <theme>
 	<include>./_inc/systems/metadata-global/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	<include>./aspect-ratio-variables.xml</include>
 	<variables>
 		<fontSizeBody>0.03</fontSizeBody> 
 		<bgColor>000000</bgColor>
 		<font_path>./_inc/fonts/font.ttf</font_path>
 	</variables>
 	<!-- default-->
-	<include>./aspect-ratio-4-3.xml</include>
-	<!-- per ratio -->
-	<aspectRatio name="16:9">
-		<include>./aspect-ratio-16-9.xml</include>
-	</aspectRatio>
-	<aspectRatio name="1:1">
-		<include>./aspect-ratio-1-1.xml</include>
-	</aspectRatio>
-
 
 	
 	<!--Hide help-->
@@ -25,5 +17,78 @@
 			<pos>1 1</pos>
 			<opacity>0</opacity>
 		</helpsystem>
+	</view>
+	
+	<!--SYSTEM-->
+	<view name="system">
+		<image name="logo" >
+			<origin>0.5 0.5</origin>
+			<pos>${logo_pos}</pos>
+			<maxSize>${logo_maxSize}</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<interpolation>linear</interpolation>
+			<zIndex>55</zIndex>
+		</image>
+		
+		<text name="Game_number">
+			<origin>0.5 0</origin>
+			<pos>${Game_number_pos}</pos>
+			<horizontalAlignment>center</horizontalAlignment>
+			<fontSize>0.02</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<systemdata>gamecountGames</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>ADADAD</color>
+			<stationary>withinView</stationary>
+			<zIndex>55</zIndex>
+		</text>
+
+		<text name="Manufacturer">
+			<origin>0.5 0.5</origin>
+			<pos>${Manufacturer_pos}</pos>
+			<horizontalAlignment>center</horizontalAlignment>
+			<fontSize>0.02</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<text>${systemManufacturer}    ${systemReleaseDateFormated}</text>
+			<letterCase>capitalize</letterCase>
+			<stationary>withinView</stationary>
+			<color>ADADAD</color>
+			<zIndex>55</zIndex>
+		</text>
+
+		<image name="foreground system" >
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>${foreground_size}</size>
+			<path>${foreground_system}</path>
+			<interpolation>linear</interpolation>
+			<stationary>withinView</stationary>
+			<zIndex>50</zIndex>
+		</image>
+		
+		<carousel name="systemcarousel">
+			<pos>0 0.2</pos>
+			<size>1 0.8</size>
+			<staticImage>./_inc/systems/controllers/${system.theme}.png</staticImage>
+			<color>${bgColor}00</color>
+			<itemSize>${carousel_item_size}</itemSize>
+			<itemScale>${carousel_item_scale}</itemScale>
+			<selectedItemMargins>0.25 0.25</selectedItemMargins>
+			<unfocusedItemOpacity>0</unfocusedItemOpacity>
+			<fastScrolling>true</fastScrolling>
+			<zIndex>40</zIndex>
+		</carousel>
+		
+		<!-- Background -->
+		<image name="background system">
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>${background_size}</size>
+			<interpolation>linear</interpolation>
+			<default>./_inc/systems/background_4_3/_default.jpg</default>
+			<path>./_inc/systems/background_4_3/${system.theme}.jpg</path>
+			<zIndex>1</zIndex>
+		</image>
+
 	</view>
 </theme>

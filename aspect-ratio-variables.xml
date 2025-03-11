@@ -1,0 +1,49 @@
+<theme>
+	<aspectRatio name="1:1">
+		<variables>
+			<foreground_system>./_inc/images/System_Foreground_4_3.png</foreground_system>
+			<foreground_size>1 0.75</foreground_size>
+			<background_size>1.33 1</background_size>
+			<Manufacturer_pos>0.5 0.188</Manufacturer_pos>
+			<Game_number_pos>0.9 0.22</Game_number_pos>
+			
+			<carousel_item_size>0.20 0.20</carousel_item_size>
+			<carousel_item_scale>3</carousel_item_scale>
+			
+			<logo_pos>0.5 0.1</logo_pos>
+			<logo_maxSize>.5 0.15</logo_maxSize>
+		</variables>
+	</aspectRatio>
+	
+	<aspectRatio name="4:3">
+		<variables>
+			<foreground_system>./_inc/images/System_Foreground_4_3.png</foreground_system>
+			<foreground_size>1 1</foreground_size>
+			<background_size>1 1</background_size>
+			<Manufacturer_pos>0.5 0.25</Manufacturer_pos>
+			<Game_number_pos>0.9 0.3</Game_number_pos>
+			
+			<carousel_item_size>0.20 0.20</carousel_item_size>
+			<carousel_item_scale>3</carousel_item_scale>
+			
+			<logo_pos>0.5 0.135</logo_pos>
+			<logo_maxSize>.5 0.2</logo_maxSize>
+		</variables>
+	</aspectRatio>
+	
+	<aspectRatio name="16:9">
+		<variables>
+			<foreground_system>./_inc/images/System_Foreground_16_9.png</foreground_system>
+			<foreground_size>1 1</foreground_size>
+			<background_size>1 1.33</background_size>
+			<Manufacturer_pos>0.5 0.27</Manufacturer_pos>
+			<Game_number_pos>0.9 0.34</Game_number_pos>
+			
+			<carousel_item_size>0.15 0.2</carousel_item_size>
+			<carousel_item_scale>3</carousel_item_scale>
+			
+			<logo_pos>0.5 0.135</logo_pos>
+			<logo_maxSize>.5 0.2</logo_maxSize>
+		</variables>
+	</aspectRatio>
+</theme>

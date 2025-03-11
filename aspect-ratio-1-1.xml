@@ -1,7 +1,0 @@
-<theme>
-	<view name="system">
-		<image name="foreground system" >
-			<path>./_inc/images/System_Foreground_4_3.png</path>
-		</image>
-	</view>
-</theme>
