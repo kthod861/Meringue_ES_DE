@@ -87,8 +87,8 @@
 			<pos>0.5 1</pos>
 			<size>${background_size}</size>
 			<interpolation>linear</interpolation>
-			<default>./_inc/systems/background_4_3/_default.jpg</default>
-			<path>./_inc/systems/background_4_3/${system.theme}.jpg</path>
+			<default>${background_default}</default>
+			<path>${background_system}</path>
 			<zIndex>1</zIndex>
 		</image>
 
