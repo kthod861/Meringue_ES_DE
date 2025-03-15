@@ -27,6 +27,7 @@
 			<maxSize>${logo_maxSize}</maxSize>
 			<path>./_inc/systems/logos/${system.theme}.png</path>
 			<interpolation>linear</interpolation>
+			<default>./_inc/systems/logos/_default.png</default>
 			<zIndex>55</zIndex>
 		</image>
 		
@@ -76,6 +77,7 @@
 			<selectedItemMargins>0.25 0.25</selectedItemMargins>
 			<unfocusedItemOpacity>0</unfocusedItemOpacity>
 			<fastScrolling>true</fastScrolling>
+			<textColor>FFFFFF</textColor>
 			<zIndex>40</zIndex>
 		</carousel>
 		
