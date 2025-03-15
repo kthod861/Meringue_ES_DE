@@ -2,7 +2,9 @@
 	<aspectRatio name="1:1">
 		<variables>
 			<foreground_system>./_inc/images/System_Foreground_1_1.png</foreground_system>
+			<foreground_gamelist_system>./_inc/images/SystemForeground_TOP.png</foreground_gamelist_system>
 			<foreground_size>1 1</foreground_size>
+			<foreground_gamelist_origin>0 .15</foreground_gamelist_origin>
 			<background_size>1.33 1</background_size>
 			<Manufacturer_pos>0.5 0.188</Manufacturer_pos>
 			<Game_number_pos>0.9 0.22</Game_number_pos>
@@ -21,7 +23,9 @@
 	<aspectRatio name="4:3">
 		<variables>
 			<foreground_system>./_inc/images/System_Foreground_4_3.png</foreground_system>
+			<foreground_gamelist_system>./_inc/images/SystemForeground_TOP.png</foreground_gamelist_system>
 			<foreground_size>1 1</foreground_size>
+			<foreground_gamelist_origin>0 .15</foreground_gamelist_origin>
 			<background_size>1 1</background_size>
 			<Manufacturer_pos>0.5 0.25</Manufacturer_pos>
 			<Game_number_pos>0.9 0.3</Game_number_pos>
@@ -40,7 +44,9 @@
 	<aspectRatio name="16:9">
 		<variables>
 			<foreground_system>./_inc/images/System_Foreground_16_9.png</foreground_system>
+			<foreground_gamelist_system>./_inc/images/SystemForeground_TOP_16_9.png</foreground_gamelist_system>
 			<foreground_size>1 1</foreground_size>
+			<foreground_gamelist_origin>0 .15</foreground_gamelist_origin>
 			<background_size>1 1</background_size>
 			<Manufacturer_pos>0.5 0.27</Manufacturer_pos>
 			<Game_number_pos>0.9 0.34</Game_number_pos>

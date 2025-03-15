@@ -109,12 +109,23 @@
 
 	<!--GAMLIST-->
 	<view name="gamelist">
+	
+		<image name="foreground system" >
+			<origin>${foreground_gamelist_origin}</origin>
+			<pos>0 0</pos>
+			<size>${foreground_size}</size>
+			<path>${foreground_gamelist_system}</path>
+			<interpolation>linear</interpolation>
+			<stationary>withinView</stationary>
+			<zIndex>50</zIndex>
+		</image>
+	
 		<grid name="grid">
 			<origin>0.5 1</origin>
 			<!--<pos>0.5 ${divider-y}</pos>-->
 			<!--<size>${grid-w} ${basic-grid-h}</size>-->
 			<pos>0.51 1</pos>
-			<size>1 1</size>
+			<size>1 0.8</size>
 			<fractionalRows>true</fractionalRows>
 			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
 			<itemScale>1.05</itemScale>
@@ -140,6 +151,19 @@
 			<imageCornerRadius>0.004</imageCornerRadius>
 			<backgroundCornerRadius>0</backgroundCornerRadius>
 		</grid>
+		
+		<!-- Background -->
+		<image name="background gamelist">
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>${background_size}</size>
+			<interpolation>linear</interpolation>
+			<default>${background_default}</default>
+			<path>${background_system}</path>
+			<opacity>0.1</opacity>
+			<zIndex>1</zIndex>
+		</image>
+		
 	</view>
 
 </theme>
