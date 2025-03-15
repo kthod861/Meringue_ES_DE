@@ -1,13 +1,26 @@
 <theme>
 	<include>./_inc/systems/metadata-global/_default.xml</include>
+	<include>./_inc/systems/metadata-custom/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	<include>./_inc/coversize-basic-grid-variables/${systemCoverSize}.xml</include>
 	<include>./aspect-ratio-variables.xml</include>
+	<include>./aspect-ratio-variables_canvas.xml</include>
 	<variables>
 		<fontSizeBody>0.03</fontSizeBody> 
 		<bgColor>000000</bgColor>
 		<font_path>./_inc/fonts/font.ttf</font_path>
 	</variables>
-	<!-- default-->
+	
+	<aspectRatio name="16:9">
+		<include>./aspect-ratio-16-9.xml</include>
+	</aspectRatio>
+	<aspectRatio name="4:3">
+		<include>./aspect-ratio-4-3.xml</include>
+	</aspectRatio>
+	<aspectRatio name="1:1">
+		<include>./aspect-ratio-1-1.xml</include>
+	</aspectRatio>
+
 
 	
 	<!--Hide help-->
@@ -93,4 +106,40 @@
 		</image>
 
 	</view>
+
+	<!--GAMLIST-->
+	<view name="gamelist">
+		<grid name="grid">
+			<origin>0.5 1</origin>
+			<!--<pos>0.5 ${divider-y}</pos>-->
+			<!--<size>${grid-w} ${basic-grid-h}</size>-->
+			<pos>0.51 1</pos>
+			<size>1 1</size>
+			<fractionalRows>true</fractionalRows>
+			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
+			<itemScale>1.05</itemScale>
+			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
+			<selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
+			<backgroundImage>./_inc/coversize-shadow/${systemCoverSize}.webp</backgroundImage>
+			<imageType>cover</imageType>
+			<unfocusedItemOpacity>1</unfocusedItemOpacity>
+			<unfocusedItemDimming>0.85</unfocusedItemDimming>
+			<unfocusedItemSaturation>1</unfocusedItemSaturation>
+			<textColor>ADADAD</textColor>
+			<fontPath>${font_path}</fontPath>
+			<fontSize>0.036111111111111</fontSize>
+			<selectorColor>FFFFFF</selectorColor>
+			<selectorLayer>top</selectorLayer>
+			<zIndex>40</zIndex>
+			<scaleInwards>false</scaleInwards>
+			<imageRelativeScale>0.97</imageRelativeScale>
+			<backgroundRelativeScale>0.995</backgroundRelativeScale>
+			<textRelativeScale>0.9</textRelativeScale>
+			<selectorRelativeScale>0.975</selectorRelativeScale>
+			<selectorCornerRadius>0.003</selectorCornerRadius>
+			<imageCornerRadius>0.004</imageCornerRadius>
+			<backgroundCornerRadius>0</backgroundCornerRadius>
+		</grid>
+	</view>
+
 </theme>

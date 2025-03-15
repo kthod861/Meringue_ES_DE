@@ -6,6 +6,11 @@
 	<aspectRatio>1:1</aspectRatio>
 	<aspectRatio>16:9</aspectRatio>
 	
+	<fontSize>small</fontSize>
+	<fontSize>medium</fontSize>
+	<fontSize>large</fontSize>
+	<fontSize>x-large</fontSize>
+
 	<!--Transitions-->
 	<transitions name="transitions">
 		<label>Default</label>
