@@ -14,12 +14,12 @@ TODO: <br />
 
 - GameList implementation
 - Try a Lottie basic animation to make logos appear in a better way ( probably a wrong idea )
-- Recreate all backgrounds with a better resolution, they are dirty atm
 
 DONE: <br />
 - Ratio management system should be ok now and handle all situations
 - System infos and controler tweaks in all ratio
 - 1:1 foregraound patched
-  
+- 16:9 background added
+- missing background added
 
 Big up to "Meringue", "Ant", "SymBuzzer", "Shadow" and more for the help they've provided here and there .
