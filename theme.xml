@@ -107,25 +107,23 @@
 
 	</view>
 
-	<!--GAMLIST-->
+	<!--GAMELIST-->
 	<view name="gamelist">
-	
-		<image name="foreground system" >
+		<!-- Foreground-->
+		<image name="foreground system TOP" >
 			<origin>${foreground_gamelist_origin}</origin>
-			<pos>0 0</pos>
-			<size>${foreground_size}</size>
+			<pos>${foreground_gamelist_pos}</pos>
+			<size>${foreground_gamelist_size}</size>
 			<path>${foreground_gamelist_system}</path>
 			<interpolation>linear</interpolation>
 			<stationary>withinView</stationary>
-			<zIndex>50</zIndex>
+			<zIndex>15</zIndex>
 		</image>
-	
+		<!--actual game grid -->
 		<grid name="grid">
 			<origin>0.5 1</origin>
-			<!--<pos>0.5 ${divider-y}</pos>-->
-			<!--<size>${grid-w} ${basic-grid-h}</size>-->
 			<pos>0.51 1</pos>
-			<size>1 0.8</size>
+			<size>1 0.85</size>
 			<fractionalRows>true</fractionalRows>
 			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
 			<itemScale>1.05</itemScale>
@@ -141,7 +139,6 @@
 			<fontSize>0.036111111111111</fontSize>
 			<selectorColor>FFFFFF</selectorColor>
 			<selectorLayer>top</selectorLayer>
-			<zIndex>40</zIndex>
 			<scaleInwards>false</scaleInwards>
 			<imageRelativeScale>0.97</imageRelativeScale>
 			<backgroundRelativeScale>0.995</backgroundRelativeScale>
@@ -150,6 +147,7 @@
 			<selectorCornerRadius>0.003</selectorCornerRadius>
 			<imageCornerRadius>0.004</imageCornerRadius>
 			<backgroundCornerRadius>0</backgroundCornerRadius>
+			<zIndex>13</zIndex>
 		</grid>
 		
 		<!-- Background -->
@@ -161,7 +159,7 @@
 			<default>${background_default}</default>
 			<path>${background_system}</path>
 			<opacity>0.1</opacity>
-			<zIndex>1</zIndex>
+			<zIndex>10</zIndex>
 		</image>
 		
 	</view>
