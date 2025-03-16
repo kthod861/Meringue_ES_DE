@@ -25,3 +25,5 @@ DONE: <br />
 - Optimisations from 255 Mo to 157 Mo
 
 Big up to "Meringue", "Ant", "SymBuzzer", "Shadow" and more for the help they've provided here and there .
+
+<img src="https://github.com/kthod861/Meringue_ES_DE_rg406/blob/main/screen.jpg" width="480" /><br />
