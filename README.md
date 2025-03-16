@@ -3,6 +3,7 @@
 An interpretation of [Primal (MeringuePersonnal)](https://www.reddit.com/user/MeringuePersonal3407/) theme found on [this thread](https://www.reddit.com/r/ANBERNIC/comments/1ix9124/my_collection/).<br />
 
 Support 4:3,1:1,16:9 aspect ratios with simple game grid.<br />
+Gamelist tiles sizes can be changed using the theme font size <br />
 
 If by any chance you've a system folder with enough good looking boxarts and are willing to share, please ping me !<br />
 At the moment almost everything comes from [libretro-thumbnails](https://github.com/libretro-thumbnails/libretro-thumbnails)
