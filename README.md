@@ -16,11 +16,12 @@ TODO: <br />
 
 DONE: <br />
 - Ratio management system should be ok now and handle all situations
-- System infos and controler tweaks in all ratio
+- System infos and controler tweaks in all ratios
 - 1:1 foregraound patched
 - 16:9 background added
 - missing background added
 - Gamelist grid added
 - Infos added
+- Optimisations from 255 Mo to 157 Mo
 
 Big up to "Meringue", "Ant", "SymBuzzer", "Shadow" and more for the help they've provided here and there .
