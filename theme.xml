@@ -8,6 +8,7 @@
 	<variables>
 		<fontSizeBody>0.03</fontSizeBody> 
 		<bgColor>000000</bgColor>
+		<fgColor>dcdcdc</fgColor>
 		<font_path>./_inc/fonts/font.ttf</font_path>
 	</variables>
 	
@@ -119,6 +120,102 @@
 			<default>./_inc/systems/logos/_default.png</default>
 			<zIndex>16</zIndex>
 		</image>
+		
+		
+		
+		<!-- Infos -->
+		<datetime name="datetime">
+			<origin>0 0.5</origin> 
+			<pos>0.033333 0.055</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>0.9</opacity>
+			<metadata>releasedate</metadata>
+			<color>${fgColor}</color>
+			<backgroundColor>000000FF</backgroundColor>
+			<defaultValue>...</defaultValue>
+			<format>%Y</format>
+			<zIndex>16</zIndex>
+		</datetime>
+		
+		<text name="md_lbl_lastplayed">
+			<origin>0 0.5</origin> 
+			<pos>0.7 0.055</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>0.9</opacity>
+			<color>${fgColor}</color>
+			<backgroundColor>000000FF</backgroundColor>
+			<text>Last played:</text>
+			<zIndex>16</zIndex>
+		</text>
+		<datetime name="md_lastplayed">
+			<origin>0 0.5</origin> 
+			<pos>0.79 0.055</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>0.9</opacity>
+			<metadata>lastplayed</metadata>
+			<color>${fgColor}</color>
+			<backgroundColor>000000FF</backgroundColor>
+			<zIndex>16</zIndex>
+		</datetime>
+
+		<text name="md_name">
+			<origin>0 0.5</origin> 
+			<pos>0.033333 0.095</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>${fontSizeBody}</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<metadata>name</metadata>
+			<color>${fgColor}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>16</zIndex>
+		</text>
+
+		<text name="game-dev">
+			<origin>0 0.5</origin> 
+			<pos>0.033333 0.15</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>${fontSizeBody}</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<metadata>developer</metadata>
+			<color>${fgColor}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>16</zIndex>
+		</text>
+
+		<rating name="rating">
+			<pos>0.075 0.045</pos>
+			<size>0.02 0.02</size>
+			<origin>0 0</origin>
+			<!--<stationary>withinView</stationary>-->
+			<opacity>0.8</opacity>
+			<zIndex>16</zIndex>
+		</rating>
+			
+		<badges name="badges">
+			<pos>0.008 0.075</pos>
+			<size>0.15 0.15</size>
+			<origin>0 0</origin>
+			<slots>favorite</slots>
+			<customBadgeIcon badge="favorite">./_inc/images/favorite.png</customBadgeIcon>
+			<opacity>0.8</opacity>
+		</badges>
+		
+		
+		
 		<!-- Foreground-->
 		<image name="foreground system TOP" >
 			<origin>${foreground_gamelist_origin}</origin>
