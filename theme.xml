@@ -109,6 +109,16 @@
 
 	<!--GAMELIST-->
 	<view name="gamelist">
+		<!-- System logo -->
+		<image name="logo" >
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.07</pos>
+			<maxSize>0.5 0.115</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<interpolation>linear</interpolation>
+			<default>./_inc/systems/logos/_default.png</default>
+			<zIndex>16</zIndex>
+		</image>
 		<!-- Foreground-->
 		<image name="foreground system TOP" >
 			<origin>${foreground_gamelist_origin}</origin>
