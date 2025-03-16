@@ -4,7 +4,10 @@
 			<foreground_system>./_inc/images/System_Foreground_1_1.png</foreground_system>
 			<foreground_size>1 1</foreground_size>
 			
-			<foreground_gamelist_system>./_inc/images/SystemForeground_TOP.png</foreground_gamelist_system>
+			<foreground_gamelist_path>./_inc/images/SystemForeground_TOP.png</foreground_gamelist_path>
+			<foreground_gamelist_bot_path>./_inc/images/SystemForeground_BOTTOM.png</foreground_gamelist_bot_path>
+			<foreground_gamelist_mid_path>./_inc/images/SystemForeground_MID.png</foreground_gamelist_mid_path>
+			
 			<foreground_gamelist_size>1 .5</foreground_gamelist_size>
 			<foreground_gamelist_origin>0.5 0</foreground_gamelist_origin>
 			<foreground_gamelist_pos>0.5 0</foreground_gamelist_pos>
@@ -29,7 +32,10 @@
 			<foreground_system>./_inc/images/System_Foreground_4_3.png</foreground_system>
 			<foreground_size>1 1</foreground_size>
 			
-			<foreground_gamelist_system>./_inc/images/SystemForeground_TOP.png</foreground_gamelist_system>
+			<foreground_gamelist_path>./_inc/images/SystemForeground_TOP.png</foreground_gamelist_path>
+			<foreground_gamelist_bot_path>./_inc/images/SystemForeground_BOTTOM.png</foreground_gamelist_bot_path>
+			<foreground_gamelist_mid_path>./_inc/images/SystemForeground_MID.png</foreground_gamelist_mid_path>
+			
 			<foreground_gamelist_size>1 .5</foreground_gamelist_size>
 			<foreground_gamelist_origin>0.5 0</foreground_gamelist_origin>
 			<foreground_gamelist_pos>0.5 0</foreground_gamelist_pos>
@@ -54,7 +60,10 @@
 			<foreground_system>./_inc/images/System_Foreground_16_9.png</foreground_system>
 			<foreground_size>1 1</foreground_size>
 			
-			<foreground_gamelist_system>./_inc/images/SystemForeground_TOP_16_9.png</foreground_gamelist_system>
+			<foreground_gamelist_path>./_inc/images/SystemForeground_TOP_16_9.png</foreground_gamelist_path>
+			<foreground_gamelist_bot_path>./_inc/images/SystemForeground_BOTTOM_16_9.png</foreground_gamelist_bot_path>
+			<foreground_gamelist_mid_path>./_inc/images/SystemForeground_MID_16_9.png</foreground_gamelist_mid_path>
+			
 			<foreground_gamelist_size>1 .5</foreground_gamelist_size>
 			<foreground_gamelist_origin>0.5 0</foreground_gamelist_origin>
 			<foreground_gamelist_pos>0.5 0</foreground_gamelist_pos>
