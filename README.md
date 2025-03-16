@@ -12,7 +12,6 @@ All tiled backgrounds images are generated using [those tools](https://github.co
 
 TODO: <br />
 
-- GameList implementation
 - Try a Lottie basic animation to make logos appear in a better way ( probably a wrong idea )
 
 DONE: <br />
@@ -21,5 +20,7 @@ DONE: <br />
 - 1:1 foregraound patched
 - 16:9 background added
 - missing background added
+- Gamelist grid added
+- Infos added
 
 Big up to "Meringue", "Ant", "SymBuzzer", "Shadow" and more for the help they've provided here and there .
