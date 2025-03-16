@@ -39,9 +39,9 @@
 			<origin>0.5 0.5</origin>
 			<pos>${logo_pos}</pos>
 			<maxSize>${logo_maxSize}</maxSize>
-			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<path>./_inc/systems/logos/${system.theme}.webp</path>
 			<interpolation>linear</interpolation>
-			<default>./_inc/systems/logos/_default.png</default>
+			<default>./_inc/systems/logos/_default.webp</default>
 			<zIndex>55</zIndex>
 		</image>
 		
@@ -84,7 +84,7 @@
 		<carousel name="systemcarousel">
 			<pos>0 0.2</pos>
 			<size>1 0.8</size>
-			<staticImage>./_inc/systems/controllers/${system.theme}.png</staticImage>
+			<staticImage>./_inc/systems/controllers/${system.theme}.webp</staticImage>
 			<color>${bgColor}00</color>
 			<itemSize>${carousel_item_size}</itemSize>
 			<itemScale>${carousel_item_scale}</itemScale>
@@ -115,9 +115,9 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.07</pos>
 			<maxSize>0.5 0.115</maxSize>
-			<path>./_inc/systems/logos/${system.theme}.png</path>
+			<path>./_inc/systems/logos/${system.theme}.webp</path>
 			<interpolation>linear</interpolation>
-			<default>./_inc/systems/logos/_default.png</default>
+			<default>./_inc/systems/logos/_default.webp</default>
 			<zIndex>16</zIndex>
 		</image>
 		

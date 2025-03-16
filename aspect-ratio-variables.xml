@@ -22,8 +22,8 @@
 			<logo_pos>0.5 0.1</logo_pos>
 			<logo_maxSize>.5 0.15</logo_maxSize>
 			
-			<background_system>./_inc/systems/background_4_3/${system.theme}.jpg</background_system>
-			<background_default>./_inc/systems/background_4_3/_default.jpg</background_default>
+			<background_system>./_inc/systems/background_4_3/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background_4_3/_default.webp</background_default>
 		</variables>
 	</aspectRatio>
 	
@@ -50,8 +50,8 @@
 			<logo_pos>0.5 0.135</logo_pos>
 			<logo_maxSize>.5 0.2</logo_maxSize>
 			
-			<background_system>./_inc/systems/background_4_3/${system.theme}.jpg</background_system>
-			<background_default>./_inc/systems/background_4_3/_default.jpg</background_default>
+			<background_system>./_inc/systems/background_4_3/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background_4_3/_default.webp</background_default>
 		</variables>
 	</aspectRatio>
 	
@@ -78,8 +78,8 @@
 			<logo_pos>0.5 0.135</logo_pos>
 			<logo_maxSize>.5 0.2</logo_maxSize>
 			
-			<background_system>./_inc/systems/background_16_9/${system.theme}.jpg</background_system>
-			<background_default>./_inc/systems/background_16_9/_default.jpg</background_default>
+			<background_system>./_inc/systems/background_16_9/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background_16_9/_default.webp</background_default>
 		</variables>
 	</aspectRatio>
 </theme>
