@@ -123,22 +123,73 @@
 		
 		
 		
-		<!-- Infos -->
-		<datetime name="datetime">
+		<!-- Left Infos -->
+		<badges name="badges">
+			<pos>0.01 0.045</pos>
+			<size>0.12 0.12</size>
+			<origin>0 0</origin>
+			<slots>favorite</slots>
+			<customBadgeIcon badge="favorite">./_inc/images/favorite.png</customBadgeIcon>
+			<opacity>0.8</opacity>
+		</badges>
+		<text name="md_name">
 			<origin>0 0.5</origin> 
-			<pos>0.033333 0.055</pos>	
-			<size>0.35 ${fontSizeBody}</size>				
-			<fontSize>0.02</fontSize>
+			<pos>0.01 0.095</pos>	
+			<size>0.235 ${fontSizeBody}</size>				
+			<fontSize>0.028</fontSize>
 			<fontPath>${font_path}</fontPath>
-			<opacity>0.9</opacity>
+			<metadata>name</metadata>
+			<color>${fgColor}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>16</zIndex>
+		</text>
+
+		<text name="publisher">
+			<origin>0 0</origin> 
+			<pos>0.01 0.12</pos>
+			<size>0.25 ${fontSizeBody}</size>
+			<fontSize>0.023</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<metadata>publisher</metadata>
+			<color>${fgColor}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>16</zIndex>
+		</text>
+
+		<datetime name="datetime">
+			<origin>0 0</origin> 
+			<pos>0.01 0.161</pos>
+			<size>0.2 ${fontSizeBody}</size>
+			<fontSize>0.023</fontSize>
+			<fontPath>${font_path}</fontPath>
+			<opacity>1</opacity>
 			<metadata>releasedate</metadata>
 			<color>${fgColor}</color>
-			<backgroundColor>000000FF</backgroundColor>
 			<defaultValue>...</defaultValue>
 			<format>%Y</format>
 			<zIndex>16</zIndex>
 		</datetime>
 		
+		<rating name="rating">
+			<origin>0 0</origin>
+			<pos>0.08 0.1625</pos>
+			<size>0.02 0.025</size>
+			<opacity>0.8</opacity>
+			<zIndex>16</zIndex>
+		</rating>
+		
+
+		
+		
+		<!-- Right Infos -->
 		<text name="md_lbl_lastplayed">
 			<origin>0 0.5</origin> 
 			<pos>0.7 0.055</pos>	
@@ -164,57 +215,7 @@
 			<zIndex>16</zIndex>
 		</datetime>
 
-		<text name="md_name">
-			<origin>0 0.5</origin> 
-			<pos>0.033333 0.095</pos>	
-			<size>0.35 ${fontSizeBody}</size>				
-			<fontSize>${fontSizeBody}</fontSize>
-			<fontPath>${font_path}</fontPath>
-			<metadata>name</metadata>
-			<color>${fgColor}</color>
-			<container>true</container>
-			<containerType>horizontal</containerType>
-			<containerStartDelay>0.0</containerStartDelay>
-			<containerResetDelay>0.0</containerResetDelay>
-			<containerScrollGap>0.5</containerScrollGap>
-			<zIndex>16</zIndex>
-		</text>
 
-		<text name="game-dev">
-			<origin>0 0.5</origin> 
-			<pos>0.033333 0.15</pos>	
-			<size>0.35 ${fontSizeBody}</size>				
-			<fontSize>${fontSizeBody}</fontSize>
-			<fontPath>${font_path}</fontPath>
-			<metadata>developer</metadata>
-			<color>${fgColor}</color>
-			<container>true</container>
-			<containerType>horizontal</containerType>
-			<containerStartDelay>0.0</containerStartDelay>
-			<containerResetDelay>0.0</containerResetDelay>
-			<containerScrollGap>0.5</containerScrollGap>
-			<zIndex>16</zIndex>
-		</text>
-
-		<rating name="rating">
-			<pos>0.075 0.045</pos>
-			<size>0.02 0.02</size>
-			<origin>0 0</origin>
-			<!--<stationary>withinView</stationary>-->
-			<opacity>0.8</opacity>
-			<zIndex>16</zIndex>
-		</rating>
-			
-		<badges name="badges">
-			<pos>0.008 0.075</pos>
-			<size>0.15 0.15</size>
-			<origin>0 0</origin>
-			<slots>favorite</slots>
-			<customBadgeIcon badge="favorite">./_inc/images/favorite.png</customBadgeIcon>
-			<opacity>0.8</opacity>
-		</badges>
-		
-		
 		
 		<!-- Foreground-->
 		<image name="foreground system TOP" >
@@ -252,6 +253,7 @@
 			<fractionalRows>true</fractionalRows>
 			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
 			<itemScale>1.05</itemScale>
+			<selectorRelativeScale>0.935</selectorRelativeScale>
 			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
 			<selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
 			<backgroundImage>./_inc/coversize-shadow/${systemCoverSize}.webp</backgroundImage>
