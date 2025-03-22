@@ -42,6 +42,8 @@
 			<path>./_inc/systems/logos/${system.theme}.webp</path>
 			<interpolation>linear</interpolation>
 			<default>./_inc/systems/logos/_default.webp</default>
+			<metadataElement>true</metadataElement>
+			<scrollFadeIn>true</scrollFadeIn>
 			<zIndex>55</zIndex>
 		</image>
 		
@@ -90,7 +92,7 @@
 			<itemScale>${carousel_item_scale}</itemScale>
 			<selectedItemMargins>0.25 0.25</selectedItemMargins>
 			<unfocusedItemOpacity>0</unfocusedItemOpacity>
-			<fastScrolling>true</fastScrolling>
+			<fastScrolling>false</fastScrolling>
 			<textColor>FFFFFF</textColor>
 			<zIndex>40</zIndex>
 		</carousel>
