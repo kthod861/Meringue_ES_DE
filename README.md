@@ -25,6 +25,7 @@ DONE: <br />
 - Gamelist grid added
 - Infos added
 - Optimisations from 255 Mo to 157 Mo
+- Newly added (3.2.0) clock and system status support
 
 Big up to "Meringue", "Ant", "SymBuzzer", "Shadow" and more for the help they've provided here and there .
 
