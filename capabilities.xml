@@ -11,6 +11,15 @@
 	<fontSize>large</fontSize>
 	<fontSize>x-large</fontSize>
 
+	<variant name="old_style">
+		<label>[Style] Default</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="brushed_style">
+		<label>[Style] Brushed</label>
+		<selectable>true</selectable>
+	</variant>
+
 	<!--Transitions-->
 	<transitions name="transitions">
 		<label>Default</label>

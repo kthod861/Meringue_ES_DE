@@ -40,14 +40,21 @@
 			<zIndex>55</zIndex>
 		</text>
 
-		<image name="foreground system" >
+		<image name="foreground system TOP" >
 			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>${foreground_size}</size>
-			<path>${foreground_system}</path>
 			<interpolation>linear</interpolation>
 			<stationary>withinView</stationary>
-			<zIndex>50</zIndex>
+		</image>
+		
+		<image name="foreground system MID" >
+			<origin>0 0</origin>
+			<interpolation>linear</interpolation>
+			<stationary>withinView</stationary>
+		</image>
+		<image name="foreground system BOTTOM" >
+			<origin>0 0</origin>
+			<interpolation>linear</interpolation>
+			<stationary>withinView</stationary>
 		</image>
 		
 		<carousel name="systemcarousel">
