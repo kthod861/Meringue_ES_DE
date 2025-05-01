@@ -1,6 +1,7 @@
 <theme>
 	<aspectRatio name="1:1">
 		<variables>
+			<grid-scaled-w>0.98175</grid-scaled-w>
 			<foreground_system>./_inc/images/System_Foreground_1_1.webp</foreground_system>
 			<foreground_size>1 1</foreground_size>
 			
@@ -29,6 +30,7 @@
 	
 	<aspectRatio name="4:3">
 		<variables>
+			<grid-scaled-w>0.98175</grid-scaled-w>
 			<foreground_system>./_inc/images/System_Foreground_4_3.webp</foreground_system>
 			<foreground_size>1 1</foreground_size>
 			
@@ -57,6 +59,7 @@
 	
 	<aspectRatio name="16:9">
 		<variables>
+			<grid-scaled-w>0.98175</grid-scaled-w>
 			<foreground_system>./_inc/images/System_Foreground_16_9.webp</foreground_system>
 			<foreground_size>1 1</foreground_size>
 			

@@ -1,0 +1,81 @@
+<theme>
+	
+	<!--SYSTEM-->
+	<view name="system">
+		<image name="logo" >
+			<origin>0.5 0.5</origin>
+			<pos>${logo_pos}</pos>
+			<maxSize>${logo_maxSize}</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.webp</path>
+			<interpolation>linear</interpolation>
+			<default>./_inc/systems/logos/_default.webp</default>
+			<metadataElement>true</metadataElement>
+			<scrollFadeIn>true</scrollFadeIn>
+			<zIndex>55</zIndex>
+		</image>
+		
+		<text name="Game_number">
+			<origin>0.5 0</origin>
+			<pos>${Game_number_pos}</pos>
+			<horizontalAlignment>center</horizontalAlignment>
+			<fontSize>0.02</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<systemdata>gamecountGames</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>ADADAD</color>
+			<stationary>withinView</stationary>
+			<zIndex>55</zIndex>
+		</text>
+
+		<text name="Manufacturer">
+			<origin>0.5 0.5</origin>
+			<pos>${Manufacturer_pos}</pos>
+			<horizontalAlignment>center</horizontalAlignment>
+			<fontSize>0.02</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<text>${systemManufacturer}    ${systemReleaseDateFormated}</text>
+			<letterCase>capitalize</letterCase>
+			<stationary>withinView</stationary>
+			<color>ADADAD</color>
+			<zIndex>55</zIndex>
+		</text>
+
+		<image name="foreground system" >
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>${foreground_size}</size>
+			<path>${foreground_system}</path>
+			<interpolation>linear</interpolation>
+			<stationary>withinView</stationary>
+			<zIndex>50</zIndex>
+		</image>
+		
+		<carousel name="systemcarousel">
+			<pos>0 0.2</pos>
+			<size>1 0.8</size>
+			<staticImage>./_inc/systems/controllers/${system.theme}.png</staticImage>
+			<color>${bgColor}00</color>
+			<itemSize>${carousel_item_size}</itemSize>
+			<itemScale>${carousel_item_scale}</itemScale>
+			<selectedItemMargins>0.25 0.25</selectedItemMargins>
+			<unfocusedItemOpacity>0</unfocusedItemOpacity>
+			<fastScrolling>false</fastScrolling>
+			<textColor>FFFFFF</textColor>
+			<zIndex>40</zIndex>
+		</carousel>
+		
+		<!-- Background -->
+		<image name="background system">
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>${background_size}</size>
+			<interpolation>linear</interpolation>
+			<default>${background_default}</default>
+			<path>${background_system}</path>
+			<zIndex>1</zIndex>
+		</image>
+
+	</view>
+
+
+</theme>
