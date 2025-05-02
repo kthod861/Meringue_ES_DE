@@ -4,20 +4,6 @@
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
 	<include>./_inc/coversize-basic-grid-variables/${systemCoverSize}.xml</include>
 	<include>./variables.xml</include>
-
-
-	<aspectRatio name="16:9">
-		<include>./game-list-grid-16-9.xml</include>
-	</aspectRatio>
-	<aspectRatio name="4:3">
-		<include>./game-list-grid-4-3.xml</include>
-	</aspectRatio>
-	<aspectRatio name="1:1">
-		<include>./game-list-grid-1-1.xml</include>
-	</aspectRatio>
-
-
-
 	<include>./system_view.xml</include>
 	<include>./grid_view.xml</include>
 

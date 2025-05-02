@@ -32,6 +32,52 @@
 			<background_system>./_inc/systems/background_4_3/${system.theme}.webp</background_system>
 			<background_default>./_inc/systems/background_4_3/_default.webp</background_default>
 		</variables>
+	   <!--
+	   ///
+	   Gamelist View: Default
+	   ///
+	   -->
+
+	   <fontSize name="small">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-xsmall.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.021</gamelistFontSize>
+			 <gamelistSelectorHeight>0.030514814814815</gamelistSelectorHeight>
+			 <gamelistLineSpacing>1.763051851851852</gamelistLineSpacing>
+			 <gamelistPos>0.528291666666667 0.105566666666667</gamelistPos>
+			 <gamelistPosFlipped>0.058291666666667 0.105566666666667</gamelistPosFlipped>
+			 <itemsBeforeCenter>3.5</itemsBeforeCenter>
+			 <itemsAfterCenter>3.5</itemsAfterCenter>   
+			 <itemSize>0.23 0.175</itemSize>
+		  </variables>
+	   </fontSize>
+	   <fontSize name="medium">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-small.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.025</gamelistFontSize>
+			 <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
+			 <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
+			 <gamelistPos>0.528291666666667 0.096666666666667</gamelistPos>
+			 <gamelistPosFlipped>0.058291666666667 0.096666666666667</gamelistPosFlipped>
+			 <itemsBeforeCenter>3</itemsBeforeCenter>
+			 <itemsAfterCenter>3</itemsAfterCenter>
+			 <itemSize>0.26 0.2</itemSize>
+		  </variables>
+	   </fontSize>
+	   <fontSize name="large,x-large">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.033333333333333</gamelistFontSize>
+			 <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
+			 <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
+			 <gamelistPos>0.528291666666667 0.1141</gamelistPos>
+			 <gamelistPosFlipped>0.058291666666667 0.1141</gamelistPosFlipped>
+			 <itemsBeforeCenter>3</itemsBeforeCenter>
+			 <itemsAfterCenter>3</itemsAfterCenter>
+			 <itemSize>0.26 0.2</itemSize>
+		  </variables>
+	   </fontSize>
+		
 	</aspectRatio>
 	
 	<aspectRatio name="4:3">
@@ -60,11 +106,59 @@
 			<background_system>./_inc/systems/background_4_3/${system.theme}.webp</background_system>
 			<background_default>./_inc/systems/background_4_3/_default.webp</background_default>
 		</variables>
+	   <!--
+	   ///
+	   Gamelist View: Default
+	   ///
+	   -->
+
+	   <fontSize name="small">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-xsmall.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.026</gamelistFontSize>
+			 <gamelistSelectorHeight>0.038214814814815</gamelistSelectorHeight>
+			 <gamelistLineSpacing>1.421251851851852</gamelistLineSpacing>
+			 <gamelistPos>0.540291666666667 0.121566666666667</gamelistPos>
+			 <gamelistPosFlipped>0.070291666666667 0.121566666666667</gamelistPosFlipped>
+			 <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
+			 <itemsBeforeCenter>3.5</itemsBeforeCenter>
+			 <itemsAfterCenter>3.5</itemsAfterCenter>   
+			 <itemSize>0.23 0.175</itemSize>
+		  </variables>
+	   </fontSize>
+	   <fontSize name="medium">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-small.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.030</gamelistFontSize>
+			 <gamelistSelectorHeight>0.04514814814815</gamelistSelectorHeight>
+			 <gamelistLineSpacing>1.542</gamelistLineSpacing>
+			 <gamelistPos>0.540291666666667 0.113666666666667</gamelistPos>
+			 <gamelistPosFlipped>0.070291666666667 0.113666666666667</gamelistPosFlipped>
+			 <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
+			 <itemsBeforeCenter>3</itemsBeforeCenter>
+			 <itemsAfterCenter>3</itemsAfterCenter>
+			 <itemSize>0.26 0.2</itemSize>
+		  </variables>
+	   </fontSize>
+	   <fontSize name="large,x-large">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.038</gamelistFontSize>
+			 <gamelistSelectorHeight>0.052</gamelistSelectorHeight>
+			 <gamelistselectorVerticalOffset>0.004</gamelistselectorVerticalOffset>
+			 <gamelistLineSpacing>1.525</gamelistLineSpacing>
+			 <gamelistPos>0.540291666666667 0.129066666666667</gamelistPos>
+			 <gamelistPosFlipped>0.070291666666667 0.12906666666667</gamelistPosFlipped>
+			 <itemsBeforeCenter>3</itemsBeforeCenter>
+			 <itemsAfterCenter>3</itemsAfterCenter>
+			 <itemSize>0.26 0.2</itemSize>
+		  </variables>
+	   </fontSize>
+		
 	</aspectRatio>
 
 	<aspectRatio name="16:9">
 		<variables>
-		
 			<system_fg_top>./_inc/images/NEO_SystemForeground_TOP_16_9.webp</system_fg_top>
 			<system_fg_top_pos>0 0</system_fg_top_pos>
 			<system_fg_top_size>1 0.475</system_fg_top_size>
@@ -92,6 +186,52 @@
 			
 			<grid-scaled-w>0.98175</grid-scaled-w>
 		</variables>
+		
+	   <!--
+	   ///
+	   Gamelist View
+	   ///
+	   -->
+
+	   <fontSize name="small">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-small.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.025</gamelistFontSize>
+			 <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
+			 <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
+			 <gamelistPos>0.541291666666667 0.105666666666667</gamelistPos>
+			 <gamelistPosFlipped>0.071291666666667 0.105666666666667</gamelistPosFlipped>
+			 <itemsBeforeCenter>3.5</itemsBeforeCenter>
+			 <itemsAfterCenter>3.5</itemsAfterCenter>
+			 <itemSize>0.23 0.175</itemSize>
+		  </variables>
+	   </fontSize>
+	   <fontSize name="medium">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.033333333333333</gamelistFontSize>
+			 <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
+			 <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
+			 <gamelistPos>0.541291666666667 0.122966666666667</gamelistPos>
+			 <gamelistPosFlipped>0.071291666666667 0.122966666666667</gamelistPosFlipped>
+			 <itemsBeforeCenter>3</itemsBeforeCenter>
+			 <itemsAfterCenter>3</itemsAfterCenter>
+			 <itemSize>0.26 0.2</itemSize>
+		  </variables>
+	   </fontSize>
+	   <fontSize name="large, x-large">
+		  <variables>
+			 <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-large.svg</gamelistBackgroundImageCalculated>
+			 <gamelistFontSize>0.039814814814815</gamelistFontSize>
+			 <gamelistSelectorHeight>0.062962962962963</gamelistSelectorHeight>
+			 <gamelistLineSpacing>1.744186046511628</gamelistLineSpacing>
+			 <gamelistPos>0.541291666666667 0.1189566666666667</gamelistPos>
+			 <gamelistPosFlipped>0.071291666666667 0.1189566666666667</gamelistPosFlipped>
+			 <itemsBeforeCenter>3</itemsBeforeCenter>
+			 <itemsAfterCenter>3</itemsAfterCenter>
+			 <itemSize>0.26 0.2</itemSize>
+		  </variables>
+	   </fontSize>
 	</aspectRatio>
 
 	
