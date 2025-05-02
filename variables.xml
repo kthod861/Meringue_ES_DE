@@ -51,6 +51,9 @@
 			<gamelist_gamename_pos>0.5 0.13</gamelist_gamename_pos>
 			<gamelist_game_fontSize>0.022</gamelist_game_fontSize>
 			
+			<gamelist_lbl_lastplayed_pos>0.78 0.15</gamelist_lbl_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.895 0.15</gamelist_lastplayed_pos>
+			
 			<grid-scaled-w>0.98175</grid-scaled-w>
 		</variables>
 	   <!--
@@ -103,29 +106,53 @@
 	
 	<aspectRatio name="4:3">
 		<variables>
-			<grid-scaled-w>0.98175</grid-scaled-w>
-			<foreground_system>./_inc/images/System_Foreground_4_3.webp</foreground_system>
+			<system_fg_top>./_inc/images/NEO_SystemForeground_TOP_1_1.webp</system_fg_top>
+			<system_fg_top_pos>0 0</system_fg_top_pos>
+			<system_fg_top_size>1 0.3313</system_fg_top_size>
+			<system_fg_mid>./_inc/images/SystemForeground_MID_1_1.webp</system_fg_mid>
+			<system_fg_mid_pos>0 0.3313</system_fg_mid_pos>
+			<system_fg_mid_size>1 0.6362</system_fg_mid_size>
+			<system_fg_bot>./_inc/images/SystemForeground_BOTTOM_1_1.webp</system_fg_bot>
+			<system_fg_bot_pos>0 0.9675</system_fg_bot_pos>
+			<system_fg_bot_size>1 0.0352</system_fg_bot_size>
+			<system_fg_brushed>./_inc/images/BCK_Header_1_1.webp</system_fg_brushed>
+
+			<system_favorite_pos>0.02 0.165</system_favorite_pos>
+			<system_manufacturer_pos>0.5 0.196</system_manufacturer_pos>
+			<system_manufacturer_fontSize>0.015</system_manufacturer_fontSize> 
+			<system_game_number_pos>0.88 0.165</system_game_number_pos>
 			
-			<foreground_gamelist_path>./_inc/images/SystemForeground_TOP.webp</foreground_gamelist_path>
-			<foreground_gamelist_bot_path>./_inc/images/SystemForeground_BOTTOM.webp</foreground_gamelist_bot_path>
-			<foreground_gamelist_mid_path>./_inc/images/SystemForeground_MID.webp</foreground_gamelist_mid_path>
+			<system_logo_pos>0.5 0.11</system_logo_pos>
+			<system_logo_maxSize>.35 0.1</system_logo_maxSize>
 			
-			<foreground_gamelist_size>1 .5</foreground_gamelist_size>
-			<foreground_gamelist_origin>0.5 0</foreground_gamelist_origin>
-			<foreground_gamelist_pos>0.5 0</foreground_gamelist_pos>
-			
-			<background_size>1 1</background_size>
-			<Manufacturer_pos>0.5 0.25</Manufacturer_pos>
-			<Game_number_pos>0.9 0.3</Game_number_pos>
-			
-			<carousel_item_size>0.20 0.20</carousel_item_size>
+			<carousel_item_size>0.2 0.18</carousel_item_size>
 			<carousel_item_scale>3</carousel_item_scale>
+			<carousel_pos>0 0.22</carousel_pos>
 			
-			<logo_pos>0.5 0.135</logo_pos>
-			<logo_maxSize>.5 0.2</logo_maxSize>
+			<background_size>1.5 1</background_size>
+			<background_system>./_inc/systems/background_16_9/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background_16_9/_default.webp</background_default>
 			
-			<background_system>./_inc/systems/background_4_3/${system.theme}.webp</background_system>
-			<background_default>./_inc/systems/background_4_3/_default.webp</background_default>
+			<gamelist_fg_top>./_inc/images/NEO_GridForeground_TOP_1_1.webp</gamelist_fg_top>
+			<gamelist_fg_top_pos>0 0</gamelist_fg_top_pos>
+			<gamelist_fg_top_size>1 0.2519</gamelist_fg_top_size>
+			<gamelist_fg_mid>./_inc/images/SystemForeground_MID_1_1.webp</gamelist_fg_mid>
+			<gamelist_fg_mid_pos>0 0.2519</gamelist_fg_mid_pos>
+			<gamelist_fg_mid_size>1 0.7129</gamelist_fg_mid_size>
+			<gamelist_fg_bot>./_inc/images/SystemForeground_BOTTOM_1_1.webp</gamelist_fg_bot>
+			<gamelist_fg_bot_pos>0 0.9648</gamelist_fg_bot_pos>
+			<gamelist_fg_bot_size>1 0.0352</gamelist_fg_bot_size>
+			
+			<gamelist_logo_pos>0.5 0.065</gamelist_logo_pos>
+			<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
+			
+			<gamelist_gamename_pos>0.5 0.13</gamelist_gamename_pos>
+			<gamelist_game_fontSize>0.022</gamelist_game_fontSize>
+			
+			<gamelist_lbl_lastplayed_pos>0.8 0.15</gamelist_lbl_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.892 0.15</gamelist_lastplayed_pos>
+			
+			<grid-scaled-w>0.98175</grid-scaled-w>
 		</variables>
 	   <!--
 	   ///
@@ -222,6 +249,9 @@
 			
 			<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
 			<gamelist_game_fontSize>0.028</gamelist_game_fontSize>
+			
+			<gamelist_lbl_lastplayed_pos>0.8 0.15</gamelist_lbl_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.87 0.15</gamelist_lastplayed_pos>
 			
 			<grid-scaled-w>0.98175</grid-scaled-w>
 		</variables>

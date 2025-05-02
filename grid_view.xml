@@ -76,7 +76,7 @@
 		<!-- Right Infos -->
 		<text name="md_lbl_lastplayed">
 			<origin>0 0</origin> 
-			<pos>0.8 0.12</pos>	
+			<pos>${gamelist_lbl_lastplayed_pos}</pos>	
 			<size>0.35 ${fontSizeBody}</size>				
 			<fontSize>0.02</fontSize>
 			<fontPath>${font_path}</fontPath>
@@ -88,8 +88,8 @@
 		</text>
 		<datetime name="md_lastplayed">
 			<origin>0 0</origin> 
-			<pos>0.892 0.15</pos>	
-			<size>0.35 ${fontSizeBody}</size>				
+			<pos>${gamelist_lastplayed_pos}</pos>	
+			<size>0.40 ${fontSizeBody}</size>				
 			<fontSize>0.02</fontSize>
 			<fontPath>${font_path}</fontPath>
 			<opacity>0.9</opacity>
