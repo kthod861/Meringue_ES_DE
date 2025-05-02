@@ -2,77 +2,112 @@
 	
 	<!--SYSTEM-->
 	<view name="system">
-		<image name="logo" >
-			<origin>0.5 0.5</origin>
-			<pos>${logo_pos}</pos>
-			<maxSize>${logo_maxSize}</maxSize>
-			<path>./_inc/systems/logos/${system.theme}.webp</path>
-			<interpolation>linear</interpolation>
-			<default>./_inc/systems/logos/_default.webp</default>
-			<metadataElement>true</metadataElement>
-			<scrollFadeIn>true</scrollFadeIn>
-			<zIndex>55</zIndex>
-		</image>
-		
-		<text name="Game_number">
+	<!--TotalGames-->
+		<text name="TotalGames">
 			<origin>0.5 0</origin>
-			<pos>${Game_number_pos}</pos>
+			<pos>${system_game_number_pos}</pos>
 			<horizontalAlignment>center</horizontalAlignment>
 			<fontSize>0.02</fontSize> 
 			<fontPath>${font_path}</fontPath>
 			<systemdata>gamecountGames</systemdata>
 			<letterCase>capitalize</letterCase>
-			<color>ADADAD</color>
+			<color>ffffff</color>
+			<opacity>0.8</opacity>
 			<stationary>withinView</stationary>
-			<zIndex>55</zIndex>
+			<zIndex>50</zIndex>
 		</text>
-
+	<!--Favorites-->
+		<text name="Favorites">
+			<origin>0 0</origin>
+			<pos>${system_favorite_pos}</pos>
+			<fontSize>0.02</fontSize> 
+			<fontPath>${font_path}</fontPath>
+			<systemdata>gamecountFavorites</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>ffffff</color>
+			<opacity>0.8</opacity>
+			<stationary>withinView</stationary>
+			<zIndex>50</zIndex>
+		</text>
+	<!--Manufacturer-->
 		<text name="Manufacturer">
 			<origin>0.5 0.5</origin>
-			<pos>${Manufacturer_pos}</pos>
+			<pos>${system_manufacturer_pos}</pos>
 			<horizontalAlignment>center</horizontalAlignment>
 			<fontSize>0.02</fontSize> 
 			<fontPath>${font_path}</fontPath>
-			<text>${systemManufacturer}    ${systemReleaseDateFormated}</text>
+			<text>${systemManufacturer}  ${systemReleaseDateFormated}</text>
 			<letterCase>capitalize</letterCase>
 			<stationary>withinView</stationary>
-			<color>ADADAD</color>
-			<zIndex>55</zIndex>
+			<color>ffffff</color>
+			<opacity>0.8</opacity>
+			<zIndex>61</zIndex>
 		</text>
-
-		<image name="foreground system TOP" >
+	<!--ForeGround-->
+		<image name="foreground_system_TOP" >
 			<origin>0 0</origin>
+			<pos>${system_fg_top_pos}</pos>
+			<size>${system_fg_top_size}</size>
+			<path>${system_fg_top}</path>
+			<zIndex>60</zIndex>
 			<interpolation>linear</interpolation>
 			<stationary>withinView</stationary>
 		</image>
-		
-		<image name="foreground system MID" >
+		<image name="foreground_system_MID" >
 			<origin>0 0</origin>
+			<pos>${system_fg_mid_pos}</pos>
+			<size>${system_fg_mid_size}</size>
+			<path>${system_fg_mid}</path>
+			<zIndex>60</zIndex>
 			<interpolation>linear</interpolation>
 			<stationary>withinView</stationary>
 		</image>
-		<image name="foreground system BOTTOM" >
+		<image name="foreground_system_BOTTOM" >
 			<origin>0 0</origin>
+			<pos>${system_fg_bot_pos}</pos>
+			<size>${system_fg_bot_size}</size>
+			<path>${system_fg_bot}</path>
+			<zIndex>60</zIndex>
 			<interpolation>linear</interpolation>
 			<stationary>withinView</stationary>
 		</image>
-		
+	<!--Background for the logo-->
+		<image name="foreground_system_Brushed" >
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>${system_fg_brushed}</path>
+			<!--<stationary>withinView</stationary>-->
+			<zIndex>2</zIndex>
+		</image>
+	<!--Logo-->
+		<image name="logo" >
+			<origin>0.5 0.5</origin>
+			<pos>${system_logo_pos}</pos>
+			<maxSize>${system_logo_maxSize}</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.webp</path>
+			<interpolation>linear</interpolation>
+			<default>./_inc/systems/logos/_default.webp</default>
+			<metadataElement>false</metadataElement>
+			<zIndex>3</zIndex>
+		</image>
+	<!--Carrousel-->
 		<carousel name="systemcarousel">
 			<pos>0 0.2</pos>
 			<size>1 0.8</size>
 			<staticImage>./_inc/systems/controllers/${system.theme}.png</staticImage>
-			<color>${bgColor}00</color>
+			<defaultImage>./_inc/systems/controllers/_default.png</defaultImage>
+			<color>00000000</color>
 			<itemSize>${carousel_item_size}</itemSize>
 			<itemScale>${carousel_item_scale}</itemScale>
 			<selectedItemMargins>0.25 0.25</selectedItemMargins>
 			<unfocusedItemOpacity>0</unfocusedItemOpacity>
 			<fastScrolling>false</fastScrolling>
 			<textColor>FFFFFF</textColor>
-			<zIndex>40</zIndex>
+			<fadeAbovePrimary>true</fadeAbovePrimary>
+			<zIndex>3</zIndex>
 		</carousel>
-		
 		<!-- Background -->
-		<image name="background system">
+		<image name="background_system">
 			<origin>0.5 1</origin>
 			<pos>0.5 1</pos>
 			<size>${background_size}</size>
@@ -83,6 +118,4 @@
 		</image>
 
 	</view>
-
-
 </theme>

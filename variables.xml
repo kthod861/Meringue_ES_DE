@@ -1,4 +1,11 @@
 <theme>
+	<variables>
+		<fontSizeBody>0.03</fontSizeBody> 
+		<bgColor>000000</bgColor>
+		<fgColor>dcdcdc</fgColor>
+		<font_path>./_inc/fonts/font.ttf</font_path>
+	</variables>
+
 	<aspectRatio name="1:1">
 		<variables>
 			<grid-scaled-w>0.98175</grid-scaled-w>
@@ -55,33 +62,35 @@
 		</variables>
 	</aspectRatio>
 
-
-
 	<aspectRatio name="16:9">
-	
 		<variables>
-			<grid-scaled-w>0.98175</grid-scaled-w>
+		
+			<system_fg_top>./_inc/images/NEO_SystemForeground_TOP_16_9.webp</system_fg_top>
+			<system_fg_top_pos>0 0</system_fg_top_pos>
+			<system_fg_top_size>1 0.475</system_fg_top_size>
+			<system_fg_mid>./_inc/images/SystemForeground_MID_16_9.webp</system_fg_mid>
+			<system_fg_mid_pos>0 0.475</system_fg_mid_pos>
+			<system_fg_mid_size>1 0.491</system_fg_mid_size>
+			<system_fg_bot>./_inc/images/SystemForeground_BOTTOM_16_9.webp</system_fg_bot>
+			<system_fg_bot_pos>0 0.966</system_fg_bot_pos>
+			<system_fg_bot_size>1 0.0352</system_fg_bot_size>
+			<system_fg_brushed>./_inc/images/BCK_Header_16_9.webp</system_fg_brushed>
+
+			<system_favorite_pos>0.02 0.286</system_favorite_pos>
+			<system_manufacturer_pos>0.5 0.27</system_manufacturer_pos>
+			<system_game_number_pos>0.9 0.286</system_game_number_pos>
 			
-			<foreground_gamelist_path>./_inc/images/SystemForeground_TOP_16_9.webp</foreground_gamelist_path>
-			<foreground_gamelist_bot_path>./_inc/images/SystemForeground_BOTTOM_16_9.webp</foreground_gamelist_bot_path>
-			<foreground_gamelist_mid_path>./_inc/images/SystemForeground_MID_16_9.webp</foreground_gamelist_mid_path>
-			
-			<foreground_gamelist_size>1 .5</foreground_gamelist_size>
-			<foreground_gamelist_origin>0.5 0</foreground_gamelist_origin>
-			<foreground_gamelist_pos>0.5 0</foreground_gamelist_pos>
-			
-			<background_size>1 1</background_size>
-			<Manufacturer_pos>0.5 0.27</Manufacturer_pos>
-			<Game_number_pos>0.9 0.34</Game_number_pos>
+			<system_logo_pos>0.5 0.135</system_logo_pos>
+			<system_logo_maxSize>.35 0.2</system_logo_maxSize>
 			
 			<carousel_item_size>0.15 0.2</carousel_item_size>
 			<carousel_item_scale>3</carousel_item_scale>
 			
-			<logo_pos>0.5 0.135</logo_pos>
-			<logo_maxSize>.5 0.2</logo_maxSize>
-			
+			<background_size>1 1</background_size>
 			<background_system>./_inc/systems/background_16_9/${system.theme}.webp</background_system>
 			<background_default>./_inc/systems/background_16_9/_default.webp</background_default>
+			
+			<grid-scaled-w>0.98175</grid-scaled-w>
 		</variables>
 	</aspectRatio>
 

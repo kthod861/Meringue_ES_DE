@@ -3,60 +3,8 @@
 based on 1920x1080
 -->
 <theme>
-	<!-- Foreground switch management-->
-	<variant name="old_style">
-		<view name="system">
-			<image name="foreground system TOP" >
-				<pos>0 0</pos>
-				<size>1 0.475</size>
-				<path>./_inc/images/SystemForeground_TOP_16_9.webp</path>
-				<zIndex>50</zIndex>
-			</image>
-			<image name="foreground system MID" >
-				<pos>0 0.475</pos>
-				<size>1 0.491</size>
-				<path>./_inc/images/SystemForeground_MID_16_9.webp</path>
-				<zIndex>50</zIndex>
-			</image>
-			<image name="foreground system BOTTOM" >
-				<pos>0 0.966</pos>
-				<size>1 0.0352</size>
-				<path>./_inc/images/SystemForeground_BOTTOM_16_9.webp</path>
-				<zIndex>50</zIndex>
-			</image>
-		</view>
-	</variant>
-	<variant name="brushed_style">
-		<view name="system">
-			<image name="foreground system TOP" >
-				<pos>0 0</pos>
-				<size>1 0.475</size>
-				<path>./_inc/images/NEO_SystemForeground_TOP_16_9.webp</path>
-				<zIndex>60</zIndex>
-			</image>
-			<image name="foreground system MID" >
-				<pos>0 0.475</pos>
-				<size>1 0.491</size>
-				<path>./_inc/images/SystemForeground_MID_16_9.webp</path>
-				<zIndex>60</zIndex>
-			</image>
-			<image name="foreground system BOTTOM" >
-				<pos>0 0.966</pos>
-				<size>1 0.0352</size>
-				<path>./_inc/images/SystemForeground_BOTTOM_16_9.webp</path>
-				<zIndex>60</zIndex>
-			</image>
-			
-			<image name="foreground system Brushed" >
-				<pos>0 0</pos>
-				<size>1 1</size>
-				<path>./_inc/images/BCK_Header_16_9.webp</path>
-				<zIndex>49</zIndex>
-			</image>
-		</view>
-	</variant>
 
-      
+     
    <!--
    ///
    Gamelist View
@@ -89,7 +37,6 @@ based on 1920x1080
          <itemSize>0.26 0.2</itemSize>
       </variables>
    </fontSize>
-
    <fontSize name="large, x-large">
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-large.svg</gamelistBackgroundImageCalculated>
