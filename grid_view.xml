@@ -5,8 +5,8 @@
 		<!-- System logo -->
 		<image name="logo" >
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.07</pos>
-			<maxSize>0.5 0.115</maxSize>
+			<pos>${gamelist_logo_pos}</pos>
+			<maxSize>${gamelist_logo_maxSize}</maxSize>
 			<path>./_inc/systems/logos/${system.theme}.webp</path>
 			<interpolation>linear</interpolation>
 			<default>./_inc/systems/logos/_default.webp</default>
@@ -15,27 +15,25 @@
 		
 		<!-- Left Infos -->
 		<badges name="badges">
-			<pos>0.01 0.045</pos>
+			<pos>0.01 0.078</pos>
 			<size>0.12 0.12</size>
 			<origin>0 0</origin>
 			<slots>favorite</slots>
 			<customBadgeIcon badge="favorite">./_inc/images/favorite.png</customBadgeIcon>
 			<opacity>0.8</opacity>
+			<stationary>withinView</stationary>
 		</badges>
 		<text name="md_name">
-			<origin>0 0.5</origin> 
-			<pos>0.01 0.095</pos>	
-			<size>0.235 ${fontSizeBody}</size>				
+			<origin>0.5 0.5</origin> 
+			<pos>${gamelist_gamename_pos}</pos>	
+			<size>1 ${fontSizeBody}</size>				
 			<fontSize>0.028</fontSize>
 			<fontPath>${font_path}</fontPath>
 			<metadata>name</metadata>
 			<color>${fgColor}</color>
-			<container>true</container>
-			<containerType>horizontal</containerType>
-			<containerStartDelay>0.0</containerStartDelay>
-			<containerResetDelay>0.0</containerResetDelay>
-			<containerScrollGap>0.5</containerScrollGap>
+			<horizontalAlignment>center</horizontalAlignment>
 			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
 		</text>
 		<text name="publisher">
 			<origin>0 0</origin> 
@@ -51,6 +49,7 @@
 			<containerResetDelay>0.0</containerResetDelay>
 			<containerScrollGap>0.5</containerScrollGap>
 			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
 		</text>
 		<datetime name="datetime">
 			<origin>0 0</origin> 
@@ -64,6 +63,7 @@
 			<defaultValue>...</defaultValue>
 			<format>%Y</format>
 			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
 		</datetime>
 		<rating name="rating">
 			<origin>0 0</origin>
@@ -71,6 +71,7 @@
 			<size>0.02 0.025</size>
 			<opacity>0.8</opacity>
 			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
 		</rating>
 		<!-- Right Infos -->
 		<text name="md_lbl_lastplayed">
@@ -83,6 +84,7 @@
 			<color>${fgColor}</color>
 			<text>Last played:</text>
 			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
 		</text>
 		<datetime name="md_lastplayed">
 			<origin>0 0</origin> 
@@ -95,6 +97,7 @@
 			<defaultValue>...</defaultValue>
 			<color>${fgColor}</color>
 			<zIndex>16</zIndex>
+			<stationary>withinView</stationary>
 		</datetime>
 
 		<!-- Foreground-->
