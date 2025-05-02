@@ -14,14 +14,14 @@
 			<color>ffffff</color>
 			<opacity>0.7</opacity>
 			<stationary>withinView</stationary>
-			<horizontalAlignment>left</horizontalAlignment>
+			<horizontalAlignment>right</horizontalAlignment>
 			<zIndex>61</zIndex>
 		</text>
 	<!--Favorites-->
 		<text name="Favorites">
 			<origin>0 0</origin>
 			<pos>${system_favorite_pos}</pos>
-			<size>0.1 0.1</size>
+			<size>0.2 0.1</size>
 			<fontSize>0.02</fontSize> 
 			<fontPath>${font_path}</fontPath>
 			<systemdata>gamecountFavorites</systemdata>
@@ -36,7 +36,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>${system_manufacturer_pos}</pos>
 			<horizontalAlignment>center</horizontalAlignment>
-			<fontSize>0.02</fontSize> 
+			<fontSize>${system_manufacturer_fontSize}</fontSize> 
 			<fontPath>${font_path}</fontPath>
 			<text>${systemManufacturer}  ${systemReleaseDateFormated}</text>
 			<letterCase>capitalize</letterCase>
