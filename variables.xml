@@ -184,6 +184,16 @@
 			<background_system>./_inc/systems/background_16_9/${system.theme}.webp</background_system>
 			<background_default>./_inc/systems/background_16_9/_default.webp</background_default>
 			
+			<gamelist_fg_top>./_inc/images/NEO_GridForeground_TOP_16_9.webp</gamelist_fg_top>
+			<gamelist_fg_top_pos>0 0</gamelist_fg_top_pos>
+			<gamelist_fg_top_size>1 0.2519</gamelist_fg_top_size>
+			<gamelist_fg_mid>./_inc/images/SystemForeground_MID_16_9.webp</gamelist_fg_mid>
+			<gamelist_fg_mid_pos>0 0.2519</gamelist_fg_mid_pos>
+			<gamelist_fg_mid_size>1 0.7129</gamelist_fg_mid_size>
+			<gamelist_fg_bot>./_inc/images/SystemForeground_BOTTOM_16_9.webp</gamelist_fg_bot>
+			<gamelist_fg_bot_pos>0 0.9648</gamelist_fg_bot_pos>
+			<gamelist_fg_bot_size>1 0.0352</gamelist_fg_bot_size>
+			
 			<grid-scaled-w>0.98175</grid-scaled-w>
 		</variables>
 		
