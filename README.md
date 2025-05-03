@@ -1,4 +1,4 @@
-# Meringue ES DE RG406 theme
+# Meringue ES DE theme
 
 An interpretation of [Primal (MeringuePersonnal)](https://www.reddit.com/user/MeringuePersonal3407/) theme found on [this thread](https://www.reddit.com/r/ANBERNIC/comments/1ix9124/my_collection/).<br />
 
