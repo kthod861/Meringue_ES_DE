@@ -13,7 +13,7 @@ Based on discussions with Leon
 - Correct naming convention (meringue-es-ed for the repo and the theme name)
 - Investigate what are badges ?
 - Ports vs Portmaster mistake ( you'r not in Knulli anymore ! )
-- Find a solution for those text info that default to verious ( or empty or else )
+- Find a solution for those text info that default to various ( or empty or else )
 - Grab assets from the asset repo 🙂
 - Lets support 19.5:9 / 16:10
 - Actual use of font sizes ( on top of the gamelist grid management )
