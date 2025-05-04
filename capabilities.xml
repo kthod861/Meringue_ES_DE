@@ -6,10 +6,10 @@
 	<aspectRatio>1:1</aspectRatio>
 	<aspectRatio>16:9</aspectRatio>
 	
-	<fontSize>small</fontSize>
+	<!--<fontSize>small</fontSize>
 	<fontSize>medium</fontSize>
 	<fontSize>large</fontSize>
-	<fontSize>x-large</fontSize>
+	<fontSize>x-large</fontSize>-->
 
 	<!--Transitions-->
 	<transitions name="transitions">
@@ -29,5 +29,25 @@
 		<entry>builtin-fade</entry>
 	</suppressTransitionProfiles>
 	
-	
+   <!--
+   ///
+   Variants
+   ///
+   -->
+   <variant name="gamelist-grid-small">
+      <label>Grid: Small</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="gamelist-grid-medium">
+      <label>Grid: Medium</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="gamelist-grid-large">
+      <label>Grid: Large</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="gamelist-grid-x-large">
+      <label>Grid: Extra large</label>
+      <selectable>true</selectable>
+   </variant>
 </themeCapabilities>
