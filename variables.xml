@@ -122,7 +122,7 @@
 			<system_manufacturer_fontSize>0.018</system_manufacturer_fontSize> 
 			<system_game_number_pos>0.86 0.227</system_game_number_pos>
 			
-			<system_logo_pos>0.5 0.137</system_logo_pos>
+			<system_logo_pos>0.5 0.1347</system_logo_pos>
 			<system_logo_maxSize>.35 0.16</system_logo_maxSize>
 			
 			<carousel_item_size>0.2 0.18</carousel_item_size>
