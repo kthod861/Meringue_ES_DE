@@ -10,7 +10,6 @@ Gamelist tiles sizes can be changed using the theme font size <br />
 TODO: <br />
 Based on discussions with Leon
 - New repo ( so the theme can be added to the official theme list...aka no history )
-- Correct naming convention (meringue-es-ed for the repo)
 - Investigate what are badges ?
 - Ports vs Portmaster mistake ( you'r not in Knulli anymore ! )
 - Lets support 19.5:9 / 16:10
