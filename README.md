@@ -8,8 +8,15 @@ Gamelist tiles sizes can be changed using the theme font size <br />
 
 
 TODO: <br />
-
-- Try a Lottie basic animation to make logos appear in a better way ( probably a wrong idea )
+Based on discussions with Leon
+- New repo ( so the theme can be added to the official theme list...aka no history )
+- Correct naming convention (meringue-es-ed for the repo and the theme name)
+- Investigate what are badges ?
+- Ports vs Portmaster mistake ( you'r not in Knulli anymore ! )
+- Find a solution for those text info that default to verious ( or empty or else )
+- Grab assets from the asset repo 🙂
+- Lets support 19.5:9 / 16:10
+- Actual use of font sizes ( on top of the gamelist grid management )
 
 DONE: <br />
 - Full code revamp and switch to brushed style
