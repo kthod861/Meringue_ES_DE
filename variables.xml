@@ -32,8 +32,8 @@
 			<carousel_pos>0 0.22</carousel_pos>
 			
 			<background_size>2 1</background_size>
-			<background_system>./_inc/systems/background_16_9/${system.theme}.webp</background_system>
-			<background_default>./_inc/systems/background_16_9/_default.webp</background_default>
+			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background/_default.webp</background_default>
 			
 			<gamelist_fg_top>./_inc/images/NEO_GridForeground_TOP_1_1.webp</gamelist_fg_top>
 			<gamelist_fg_top_pos>0 0</gamelist_fg_top_pos>
@@ -130,8 +130,8 @@
 			<carousel_pos>0 0.22</carousel_pos>
 			
 			<background_size>1.5 1</background_size>
-			<background_system>./_inc/systems/background_16_9/${system.theme}.webp</background_system>
-			<background_default>./_inc/systems/background_16_9/_default.webp</background_default>
+			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background/_default.webp</background_default>
 			
 			<gamelist_fg_top>./_inc/images/NEO_GridForeground_TOP_1_1.webp</gamelist_fg_top>
 			<gamelist_fg_top_pos>0 0</gamelist_fg_top_pos>
@@ -231,8 +231,8 @@
 			<carousel_pos>0 0.22</carousel_pos>
 			
 			<background_size>1 1</background_size>
-			<background_system>./_inc/systems/background_16_9/${system.theme}.webp</background_system>
-			<background_default>./_inc/systems/background_16_9/_default.webp</background_default>
+			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background/_default.webp</background_default>
 			
 			<gamelist_fg_top>./_inc/images/NEO_GridForeground_TOP_16_9.webp</gamelist_fg_top>
 			<gamelist_fg_top_pos>0 0</gamelist_fg_top_pos>

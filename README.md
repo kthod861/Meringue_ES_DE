@@ -10,15 +10,17 @@ Gamelist tiles sizes can be changed using the theme font size <br />
 TODO: <br />
 Based on discussions with Leon
 - New repo ( so the theme can be added to the official theme list...aka no history )
-- Correct naming convention (meringue-es-ed for the repo and the theme name)
+- Correct naming convention (meringue-es-ed for the repo)
 - Investigate what are badges ?
 - Ports vs Portmaster mistake ( you'r not in Knulli anymore ! )
-- Find a solution for those text info that default to various ( or empty or else )
-- Grab assets from the asset repo 🙂
 - Lets support 19.5:9 / 16:10
 - Actual use of font sizes ( on top of the gamelist grid management )
 
 DONE: <br />
+- Metadata / logos, some controllers and some backgrounds now comes from the official es-de assets repo
+- No more various texts 
+- Theme name naming convention
+- Xbox one / Mark III / N3ds systems added
 - Full code revamp and switch to brushed style
 - Newly added (3.2.0) clock and system status support
 - Optimisations from 255 Mo to 157 Mo

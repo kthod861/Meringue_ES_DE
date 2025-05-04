@@ -7,7 +7,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>${gamelist_logo_pos}</pos>
 			<maxSize>${gamelist_logo_maxSize}</maxSize>
-			<path>./_inc/systems/logos/${system.theme}.webp</path>
+			<path>./_inc/systems/logos/${system.theme}.svg</path>
 			<interpolation>linear</interpolation>
 			<default>./_inc/systems/logos/_default.webp</default>
 			<zIndex>16</zIndex>
