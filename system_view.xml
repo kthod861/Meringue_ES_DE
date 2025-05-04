@@ -97,8 +97,8 @@
 			<origin>0 0</origin>
 			<pos>${carousel_pos}</pos>
 			<size>1 0.8</size>
-			<staticImage>./_inc/systems/controllers/${system.theme}.png</staticImage>
-			<defaultImage>./_inc/systems/controllers/_default.png</defaultImage>
+			<staticImage>./_inc/systems/controllers/${system.theme}.webp</staticImage>
+			<defaultImage>./_inc/systems/controllers/_default.webp</defaultImage>
 			<color>00000000</color>
 			<itemSize>${carousel_item_size}</itemSize>
 			<itemScale>${carousel_item_scale}</itemScale>
