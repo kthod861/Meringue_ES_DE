@@ -24,7 +24,7 @@
 			<system_manufacturer_fontSize>0.015</system_manufacturer_fontSize> 
 			<system_game_number_pos>0.86 0.165</system_game_number_pos>
 			
-			<system_logo_pos>0.5 0.105</system_logo_pos>
+			<system_logo_pos>0.5 0.1042</system_logo_pos>
 			<system_logo_maxSize>.35 0.1</system_logo_maxSize>
 			
 			<carousel_item_size>0.2 0.18</carousel_item_size>
@@ -223,7 +223,7 @@
 			<system_manufacturer_fontSize>0.02</system_manufacturer_fontSize> 
 			<system_game_number_pos>0.86 0.255</system_game_number_pos>
 			
-			<system_logo_pos>0.5 0.135</system_logo_pos>
+			<system_logo_pos>0.5 0.1333</system_logo_pos>
 			<system_logo_maxSize>.35 0.18</system_logo_maxSize>
 			
 			<carousel_item_size>0.15 0.2</carousel_item_size>
