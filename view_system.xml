@@ -6,8 +6,8 @@
 		<text name="TotalGames">
 			<origin>0 0</origin>
 			<pos>${system_game_number_pos}</pos>
-			<size>0.1 0.1</size>
-			<fontSize>0.02</fontSize> 
+			<size>0.2 0.1</size>
+			<fontSize>${system_game_number_fontSize}</fontSize> 
 			<fontPath>${font_path}</fontPath>
 			<systemdata>gamecountGames</systemdata>
 			<letterCase>capitalize</letterCase>
@@ -20,9 +20,9 @@
 	<!--Favorites-->
 		<text name="Favorites">
 			<origin>0 0</origin>
-			<pos>${system_favorite_pos}</pos>
+			<pos>${system_favorites_pos}</pos>
 			<size>0.2 0.1</size>
-			<fontSize>0.02</fontSize> 
+			<fontSize>${system_favorites_fontSize}</fontSize> 
 			<fontPath>${font_path}</fontPath>
 			<systemdata>gamecountFavorites</systemdata>
 			<letterCase>capitalize</letterCase>

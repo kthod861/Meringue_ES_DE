@@ -8,8 +8,7 @@
 	
 	<fontSize>small</fontSize>
 	<fontSize>medium</fontSize>
-	<!--<fontSize>large</fontSize>
-	<fontSize>x-large</fontSize>-->
+	<fontSize>large</fontSize>
 
 	<!--Transitions-->
 	<transitions name="transitions">
