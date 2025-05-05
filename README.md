@@ -16,6 +16,7 @@ Based on discussions with Leon
 - Actual use of font sizes ( on top of the gamelist grid management )
 
 DONE: <br />
+- Gamelist grid size is now handled by variant options instead of font size
 - Metadata / logos, some controllers and some backgrounds now comes from the official es-de assets repo
 - No more various texts 
 - Theme name naming convention
