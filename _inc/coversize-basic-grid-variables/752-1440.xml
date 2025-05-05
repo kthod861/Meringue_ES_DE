@@ -1,201 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
 <theme>
-     <aspectRatio name="1:1">
-          <fontSize name="small">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.313324468085106</row-h>         
-                                        <grid-w>0.9662</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.155833333333333</grid-base-item-w>                       
-                                        <grid-base-item-h>0.298404255319149</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.313324468085106</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00467500000000001</grid-item-spacing>      
-                                        <row-marquee-h>0.391111111111111</row-marquee-h>
-                                        <row-marquee-w>0.508444444444444</row-marquee-w>        
-                                        <row-marquee-y>0.0140625</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="medium">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.375989361702128</row-h>         
-                                        <grid-w>0.9678</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.187</grid-base-item-w>                       
-                                        <grid-base-item-h>0.358085106382979</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.375989361702128</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00584375000000001</grid-item-spacing>      
-                                        <row-marquee-h>0.371777777777778</row-marquee-h>
-                                        <row-marquee-w>0.483311111111111</row-marquee-w>        
-                                        <row-marquee-y>0.01828125</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="large">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.46998670212766</row-h>         
-                                        <grid-w>0.9701</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.23375</grid-base-item-w>                       
-                                        <grid-base-item-h>0.447606382978723</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.46998670212766</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00779166666666668</grid-item-spacing>      
-                                        <row-marquee-h>0.353377777777778</row-marquee-h>
-                                        <row-marquee-w>0.459391111111111</row-marquee-w>        
-                                        <row-marquee-y>0.02109375</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="x-large">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.626648936170213</row-h>         
-                                        <grid-w>0.974</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.311666666666667</grid-base-item-w>                       
-                                        <grid-base-item-h>0.596808510638298</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.626648936170213</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.0116875</grid-item-spacing>      
-                                        <row-marquee-h>0.344177777777778</row-marquee-h>
-                                        <row-marquee-w>0.447431111111111</row-marquee-w>        
-                                        <row-marquee-y>0.0225</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-     </aspectRatio>
-     <aspectRatio name="16:9">
-          <fontSize name="small">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.371347517730496</row-h>         
-                                        <grid-w>0.9636</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.103888888888889</grid-base-item-w>                       
-                                        <grid-base-item-h>0.353664302600473</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.371347517730496</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.002921875</grid-item-spacing>      
-                                        <row-marquee-h>0.1796</row-marquee-h>
-                                        <row-marquee-w>0.23348</row-marquee-w>        
-                                        <row-marquee-y>0.025</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="medium">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.417765957446809</row-h>         
-                                        <grid-w>0.9643</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.116875</grid-base-item-w>                       
-                                        <grid-base-item-h>0.397872340425532</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.417765957446809</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00333928571428572</grid-item-spacing>      
-                                        <row-marquee-h>0.15056</row-marquee-h>
-                                        <row-marquee-w>0.195728</row-marquee-w>        
-                                        <row-marquee-y>0.0325</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="large">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.477446808510638</row-h>         
-                                        <grid-w>0.9651</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.133571428571429</grid-base-item-w>                       
-                                        <grid-base-item-h>0.454711246200608</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.477446808510638</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00389583333333333</grid-item-spacing>      
-                                        <row-marquee-h>0.1312</row-marquee-h>
-                                        <row-marquee-w>0.17056</row-marquee-w>        
-                                        <row-marquee-y>0.0375</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="x-large">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.557021276595745</row-h>         
-                                        <grid-w>0.9662</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.155833333333333</grid-base-item-w>                       
-                                        <grid-base-item-h>0.530496453900709</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.557021276595745</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00467500000000001</grid-item-spacing>      
-                                        <row-marquee-h>0.12152</row-marquee-h>
-                                        <row-marquee-w>0.157976</row-marquee-w>        
-                                        <row-marquee-y>0.04</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-     </aspectRatio>
-     <aspectRatio name="4:3">
-          <fontSize name="small">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.313324468085106</row-h>         
-                                        <grid-w>0.9876</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.116875</grid-base-item-w>                       
-                                        <grid-base-item-h>0.298404255319149</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.313324468085106</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00667857142857144</grid-item-spacing>      
-                                        <row-marquee-h>0.276533333333333</row-marquee-h>
-                                        <row-marquee-w>0.359493333333333</row-marquee-w>        
-                                        <row-marquee-y>0.01875</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="medium">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.358085106382979</row-h>         
-                                        <grid-w>0.9885</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.133571428571429</grid-base-item-w>                       
-                                        <grid-base-item-h>0.341033434650456</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.358085106382979</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00779166666666666</grid-item-spacing>      
-                                        <row-marquee-h>0.248933333333333</row-marquee-h>
-                                        <row-marquee-w>0.323613333333333</row-marquee-w>        
-                                        <row-marquee-y>0.024375</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="large">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.417765957446809</row-h>         
-                                        <grid-w>0.9896</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.155833333333333</grid-base-item-w>                       
-                                        <grid-base-item-h>0.397872340425532</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.417765957446809</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.00935000000000001</grid-item-spacing>      
-                                        <row-marquee-h>0.230533333333333</row-marquee-h>
-                                        <row-marquee-w>0.299693333333333</row-marquee-w>        
-                                        <row-marquee-y>0.028125</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-               <fontSize name="x-large">
-                            <variables>
-                               <!--   Grid/Row Variables   -->            
-                                        <row-h>0.50131914893617</row-h>         
-                                        <grid-w>0.9911</grid-w>          
-                                        <grid-scale>1.05</grid-scale>                     
-                                        <grid-img-relative-scale>1.05</grid-img-relative-scale>                 
-                                        <grid-base-item-w>0.187</grid-base-item-w>                       
-                                        <grid-base-item-h>0.477446808510638</grid-base-item-h>                            
-                                        <grid-scaled-item-h>0.50131914893617</grid-scaled-item-h>                   
-                                        <grid-item-spacing>0.0116875</grid-item-spacing>      
-                                        <row-marquee-h>0.221333333333333</row-marquee-h>
-                                        <row-marquee-w>0.287733333333333</row-marquee-w>        
-                                        <row-marquee-y>0.03</row-marquee-y>                                      
-                            </variables>
-               </fontSize> 
-     </aspectRatio>
+	<variant name="gamelist-grid-small">
+		<aspectRatio name="1:1">
+			<variables>
+				<grid-base-item-w>0.155833333333333</grid-base-item-w>
+				<grid-base-item-h>0.298404255319149</grid-base-item-h>
+				<grid-item-spacing>0.00467500000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="4:3">
+			<variables>
+				<grid-base-item-w>0.116875</grid-base-item-w>
+				<grid-base-item-h>0.298404255319149</grid-base-item-h>
+				<grid-item-spacing>0.00667857142857144</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="16:9">
+			<variables>
+				<grid-base-item-w>0.103888888888889</grid-base-item-w>
+				<grid-base-item-h>0.353664302600473</grid-base-item-h>
+				<grid-item-spacing>0.002921875</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+	</variant>
+	<variant name="gamelist-grid-medium">
+		<aspectRatio name="1:1">
+			<variables>
+				<grid-base-item-w>0.187</grid-base-item-w>
+				<grid-base-item-h>0.358085106382979</grid-base-item-h>
+				<grid-item-spacing>0.00584375000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="4:3">
+			<variables>
+				<grid-base-item-w>0.133571428571429</grid-base-item-w>
+				<grid-base-item-h>0.341033434650456</grid-base-item-h>
+				<grid-item-spacing>0.00779166666666666</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="16:9">
+			<variables>
+				<grid-base-item-w>0.116875</grid-base-item-w>
+				<grid-base-item-h>0.397872340425532</grid-base-item-h>
+				<grid-item-spacing>0.00333928571428572</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+	</variant>
+	<variant name="gamelist-grid-large">
+		<aspectRatio name="1:1">
+			<variables>
+				<grid-base-item-w>0.23375</grid-base-item-w>
+				<grid-base-item-h>0.447606382978723</grid-base-item-h>
+				<grid-item-spacing>0.00779166666666668</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="4:3">
+			<variables>
+				<grid-base-item-w>0.155833333333333</grid-base-item-w>
+				<grid-base-item-h>0.397872340425532</grid-base-item-h>
+				<grid-item-spacing>0.00935000000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="16:9">
+			<variables>
+				<grid-base-item-w>0.133571428571429</grid-base-item-w>
+				<grid-base-item-h>0.454711246200608</grid-base-item-h>
+				<grid-item-spacing>0.00389583333333333</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+	</variant>
+	<variant name="gamelist-grid-x-large">
+		<aspectRatio name="1:1">
+			<variables>
+				<grid-base-item-w>0.311666666666667</grid-base-item-w>
+				<grid-base-item-h>0.596808510638298</grid-base-item-h>
+				<grid-item-spacing>0.0116875</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="4:3">
+			<variables>
+				<grid-base-item-w>0.187</grid-base-item-w>
+				<grid-base-item-h>0.477446808510638</grid-base-item-h>
+				<grid-item-spacing>0.0116875</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+		<aspectRatio name="16:9">
+			<variables>
+				<grid-base-item-w>0.155833333333333</grid-base-item-w>
+				<grid-base-item-h>0.530496453900709</grid-base-item-h>
+				<grid-item-spacing>0.00467500000000001</grid-item-spacing>
+			</variables>
+		</aspectRatio>
+	</variant>
 </theme>
-
