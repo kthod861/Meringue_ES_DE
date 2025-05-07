@@ -43,11 +43,6 @@
 			<gamelist_fg_bot_pos>0 0.9648</gamelist_fg_bot_pos>
 			<gamelist_fg_bot_size>1 0.0352</gamelist_fg_bot_size>
 			
-			<gamelist_logo_pos>0.5 0.065</gamelist_logo_pos>
-			<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
-			
-			<gamelist_gamename_pos>0.5 0.13</gamelist_gamename_pos>
-			<gamelist_game_fontSize>0.022</gamelist_game_fontSize>
 			
 			<gamelist_lbl_lastplayed_pos>0.78 0.15</gamelist_lbl_lastplayed_pos>
 			<gamelist_lastplayed_pos>0.895 0.15</gamelist_lastplayed_pos>
@@ -61,6 +56,11 @@
 				<system_game_number_pos>0.77 0.165</system_game_number_pos>
 				<system_favorites_fontSize>0.02</system_favorites_fontSize>
 				<system_favorites_pos>0.02 0.165</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.13</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.022</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.065</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="medium">
@@ -69,6 +69,11 @@
 				<system_game_number_pos>0.79 0.165</system_game_number_pos>
 				<system_favorites_fontSize>0.025</system_favorites_fontSize>
 				<system_favorites_pos>0.008 0.165</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.13</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.027</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.065</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
@@ -77,6 +82,11 @@
 				<system_game_number_pos>0.8 0.165</system_game_number_pos>
 				<system_favorites_fontSize>0.03</system_favorites_fontSize>
 				<system_favorites_pos>0.002 0.165</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.13</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.032</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.065</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 	</aspectRatio>
@@ -106,7 +116,7 @@
 			<carousel_item_scale>3</carousel_item_scale>
 			<carousel_pos>0 0.22</carousel_pos>
 			
-			<background_size>1.5 1</background_size>
+			<background_size>1.3333 1</background_size>
 			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
 			<background_default>./_inc/systems/background/_default.webp</background_default>
 			
@@ -120,11 +130,7 @@
 			<gamelist_fg_bot_pos>0 0.9648</gamelist_fg_bot_pos>
 			<gamelist_fg_bot_size>1 0.0352</gamelist_fg_bot_size>
 			
-			<gamelist_logo_pos>0.5 0.059</gamelist_logo_pos>
-			<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
-			
-			<gamelist_gamename_pos>0.5 0.126</gamelist_gamename_pos>
-			<gamelist_game_fontSize>0.028</gamelist_game_fontSize>
+
 			
 			<gamelist_lbl_lastplayed_pos>0.8 0.15</gamelist_lbl_lastplayed_pos>
 			<gamelist_lastplayed_pos>0.892 0.15</gamelist_lastplayed_pos>
@@ -138,6 +144,11 @@
 				<system_game_number_pos>0.75 0.227</system_game_number_pos>
 				<system_favorites_fontSize>0.02</system_favorites_fontSize>
 				<system_favorites_pos>0.02 0.227</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.126</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.028</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.059</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="medium">
@@ -146,6 +157,11 @@
 				<system_game_number_pos>0.76 0.227</system_game_number_pos>
 				<system_favorites_fontSize>0.025</system_favorites_fontSize>
 				<system_favorites_pos>0.02 0.227</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.126</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.033</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.059</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
@@ -154,10 +170,103 @@
 				<system_game_number_pos>0.78 0.227</system_game_number_pos>				
 				<system_favorites_fontSize>0.03</system_favorites_fontSize>
 				<system_favorites_pos>0.02 0.227</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.126</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.038</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.059</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 	</aspectRatio>
+	
+	<aspectRatio name="3:2">
+		<variables>
+			<system_fg_top>./_inc/images/NEO_SystemForeground_TOP.webp</system_fg_top>
+			<system_fg_top_pos>0 0</system_fg_top_pos>
+			<system_fg_top_size>1 0.4417</system_fg_top_size>
+			<system_fg_mid>./_inc/images/SystemForeground_MID_1_1.webp</system_fg_mid>
+			<system_fg_mid_pos>0 0.4417</system_fg_mid_pos>
+			<system_fg_mid_size>1 0.5231</system_fg_mid_size>
+			<system_fg_bot>./_inc/images/SystemForeground_BOTTOM_1_1.webp</system_fg_bot>
+			<system_fg_bot_pos>0 0.9648</system_fg_bot_pos>
+			<system_fg_bot_size>1 0.0352</system_fg_bot_size>
+			<system_fg_brushed>./_inc/images/BCK_Header.webp</system_fg_brushed>
 
+			
+			<system_manufacturer_pos>0.5 0.257</system_manufacturer_pos>
+			<system_manufacturer_fontSize>0.018</system_manufacturer_fontSize> 
+			
+			
+			<system_logo_pos>0.5 0.1347</system_logo_pos>
+			<system_logo_maxSize>.35 0.16</system_logo_maxSize>
+			
+			<carousel_item_size>0.2 0.18</carousel_item_size>
+			<carousel_item_scale>3</carousel_item_scale>
+			<carousel_pos>0 0.22</carousel_pos>
+			
+			<background_size>1.185 1</background_size>
+			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background/_default.webp</background_default>
+			
+			<gamelist_fg_top>./_inc/images/NEO_GridForeground_TOP_1_1.webp</gamelist_fg_top>
+			<gamelist_fg_top_pos>0 0</gamelist_fg_top_pos>
+			<gamelist_fg_top_size>1 0.2519</gamelist_fg_top_size>
+			<gamelist_fg_mid>./_inc/images/SystemForeground_MID_1_1.webp</gamelist_fg_mid>
+			<gamelist_fg_mid_pos>0 0.2519</gamelist_fg_mid_pos>
+			<gamelist_fg_mid_size>1 0.7129</gamelist_fg_mid_size>
+			<gamelist_fg_bot>./_inc/images/SystemForeground_BOTTOM_1_1.webp</gamelist_fg_bot>
+			<gamelist_fg_bot_pos>0 0.9648</gamelist_fg_bot_pos>
+			<gamelist_fg_bot_size>1 0.0352</gamelist_fg_bot_size>
+			
+
+			
+			<gamelist_lbl_lastplayed_pos>0.8 0.15</gamelist_lbl_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.892 0.15</gamelist_lastplayed_pos>
+			
+			<grid-scaled-w>0.98175</grid-scaled-w>
+		</variables>
+		<!--FONT SIZE-->
+		<fontSize name="small">
+			<variables>
+				<system_game_number_fontSize>0.02</system_game_number_fontSize> 
+				<system_game_number_pos>0.75 0.227</system_game_number_pos>
+				<system_favorites_fontSize>0.02</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.227</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.126</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.028</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.059</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+		<fontSize name="medium">
+			<variables>
+				<system_game_number_fontSize>0.025</system_game_number_fontSize> 
+				<system_game_number_pos>0.76 0.227</system_game_number_pos>
+				<system_favorites_fontSize>0.025</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.227</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.126</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.033</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.059</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+		<fontSize name="large">
+			<variables>
+				<system_game_number_fontSize>0.03</system_game_number_fontSize>
+				<system_game_number_pos>0.78 0.227</system_game_number_pos>				
+				<system_favorites_fontSize>0.03</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.227</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.126</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.038</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.059</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.1</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+	</aspectRatio>
+	
 	<aspectRatio name="16:9">
 		<variables>
 			<system_fg_top>./_inc/images/NEO_SystemForeground_TOP_16_9.webp</system_fg_top>
@@ -195,11 +304,89 @@
 			<gamelist_fg_bot_pos>0 0.9648</gamelist_fg_bot_pos>
 			<gamelist_fg_bot_size>1 0.0352</gamelist_fg_bot_size>
 			
-			<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
-			<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
+			<gamelist_lbl_lastplayed_pos>0.8 0.15</gamelist_lbl_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.87 0.15</gamelist_lastplayed_pos>
 			
-			<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
-			<gamelist_game_fontSize>0.028</gamelist_game_fontSize>
+			<grid-scaled-w>0.98175</grid-scaled-w>
+		</variables>
+		<!--FONT SIZE-->
+		<fontSize name="small">
+			<variables>
+				<system_game_number_fontSize>0.02</system_game_number_fontSize> 
+				<system_game_number_pos>0.78 0.255</system_game_number_pos>
+				<system_favorites_fontSize>0.02</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.028</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+		<fontSize name="medium">
+			<variables>
+				<system_game_number_fontSize>0.025</system_game_number_fontSize> 
+				<system_game_number_pos>0.78 0.255</system_game_number_pos>
+				<system_favorites_fontSize>0.025</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.033</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+		<fontSize name="large">
+			<variables>
+				<system_game_number_fontSize>0.03</system_game_number_fontSize>
+				<system_game_number_pos>0.78 0.255</system_game_number_pos>
+				<system_favorites_fontSize>0.03</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.038</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+	</aspectRatio>
+
+	<aspectRatio name="16:10">
+		<variables>
+			<system_fg_top>./_inc/images/NEO_SystemForeground_TOP_16_9.webp</system_fg_top>
+			<system_fg_top_pos>0 0</system_fg_top_pos>
+			<system_fg_top_size>1 0.475</system_fg_top_size>
+			<system_fg_mid>./_inc/images/SystemForeground_MID_16_9.webp</system_fg_mid>
+			<system_fg_mid_pos>0 0.475</system_fg_mid_pos>
+			<system_fg_mid_size>1 0.491</system_fg_mid_size>
+			<system_fg_bot>./_inc/images/SystemForeground_BOTTOM_16_9.webp</system_fg_bot>
+			<system_fg_bot_pos>0 0.966</system_fg_bot_pos>
+			<system_fg_bot_size>1 0.0352</system_fg_bot_size>
+			<system_fg_brushed>./_inc/images/BCK_Header_16_9.webp</system_fg_brushed>
+
+			<system_manufacturer_pos>0.5 0.27</system_manufacturer_pos>
+			<system_manufacturer_fontSize>0.02</system_manufacturer_fontSize> 
+			
+			<system_logo_pos>0.5 0.1333</system_logo_pos>
+			<system_logo_maxSize>.35 0.18</system_logo_maxSize>
+			
+			<carousel_item_size>0.15 0.2</carousel_item_size>
+			<carousel_item_scale>3</carousel_item_scale>
+			<carousel_pos>0 0.22</carousel_pos>
+			
+			<background_size>1.111 1</background_size>
+			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background/_default.webp</background_default>
+			
+			<gamelist_fg_top>./_inc/images/NEO_GridForeground_TOP_16_9.webp</gamelist_fg_top>
+			<gamelist_fg_top_pos>0 0</gamelist_fg_top_pos>
+			<gamelist_fg_top_size>1 0.2519</gamelist_fg_top_size>
+			<gamelist_fg_mid>./_inc/images/SystemForeground_MID_16_9.webp</gamelist_fg_mid>
+			<gamelist_fg_mid_pos>0 0.2519</gamelist_fg_mid_pos>
+			<gamelist_fg_mid_size>1 0.7129</gamelist_fg_mid_size>
+			<gamelist_fg_bot>./_inc/images/SystemForeground_BOTTOM_16_9.webp</gamelist_fg_bot>
+			<gamelist_fg_bot_pos>0 0.9648</gamelist_fg_bot_pos>
+			<gamelist_fg_bot_size>1 0.0352</gamelist_fg_bot_size>
 			
 			<gamelist_lbl_lastplayed_pos>0.8 0.15</gamelist_lbl_lastplayed_pos>
 			<gamelist_lastplayed_pos>0.87 0.15</gamelist_lastplayed_pos>
@@ -213,6 +400,11 @@
 				<system_game_number_pos>0.78 0.255</system_game_number_pos>
 				<system_favorites_fontSize>0.02</system_favorites_fontSize>
 				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.028</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="medium">
@@ -221,6 +413,11 @@
 				<system_game_number_pos>0.78 0.255</system_game_number_pos>
 				<system_favorites_fontSize>0.025</system_favorites_fontSize>
 				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.033</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 		<fontSize name="large">
@@ -229,9 +426,97 @@
 				<system_game_number_pos>0.78 0.255</system_game_number_pos>
 				<system_favorites_fontSize>0.03</system_favorites_fontSize>
 				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.038</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
 			</variables>
 		</fontSize>
 	</aspectRatio>
 
-	
+	<aspectRatio name="21:9">
+		<variables>
+			<system_fg_top>./_inc/images/NEO_SystemForeground_TOP_16_9.webp</system_fg_top>
+			<system_fg_top_pos>0 0</system_fg_top_pos>
+			<system_fg_top_size>1 0.475</system_fg_top_size>
+			<system_fg_mid>./_inc/images/SystemForeground_MID_16_9.webp</system_fg_mid>
+			<system_fg_mid_pos>0 0.475</system_fg_mid_pos>
+			<system_fg_mid_size>1 0.491</system_fg_mid_size>
+			<system_fg_bot>./_inc/images/SystemForeground_BOTTOM_16_9.webp</system_fg_bot>
+			<system_fg_bot_pos>0 0.966</system_fg_bot_pos>
+			<system_fg_bot_size>1 0.0352</system_fg_bot_size>
+			<system_fg_brushed>./_inc/images/BCK_Header_16_9.webp</system_fg_brushed>
+
+			<system_manufacturer_pos>0.5 0.27</system_manufacturer_pos>
+			<system_manufacturer_fontSize>0.02</system_manufacturer_fontSize> 
+			
+			<system_logo_pos>0.5 0.1333</system_logo_pos>
+			<system_logo_maxSize>.35 0.18</system_logo_maxSize>
+			
+			<carousel_item_size>0.15 0.2</carousel_item_size>
+			<carousel_item_scale>3</carousel_item_scale>
+			<carousel_pos>0 0.22</carousel_pos>
+			
+			<background_size>1 1.31</background_size>
+			<background_system>./_inc/systems/background/${system.theme}.webp</background_system>
+			<background_default>./_inc/systems/background/_default.webp</background_default>
+			
+			<gamelist_fg_top>./_inc/images/NEO_GridForeground_TOP_16_9.webp</gamelist_fg_top>
+			<gamelist_fg_top_pos>0 0</gamelist_fg_top_pos>
+			<gamelist_fg_top_size>1 0.2519</gamelist_fg_top_size>
+			<gamelist_fg_mid>./_inc/images/SystemForeground_MID_16_9.webp</gamelist_fg_mid>
+			<gamelist_fg_mid_pos>0 0.2519</gamelist_fg_mid_pos>
+			<gamelist_fg_mid_size>1 0.7129</gamelist_fg_mid_size>
+			<gamelist_fg_bot>./_inc/images/SystemForeground_BOTTOM_16_9.webp</gamelist_fg_bot>
+			<gamelist_fg_bot_pos>0 0.9648</gamelist_fg_bot_pos>
+			<gamelist_fg_bot_size>1 0.0352</gamelist_fg_bot_size>
+			
+			<gamelist_lbl_lastplayed_pos>0.8 0.15</gamelist_lbl_lastplayed_pos>
+			<gamelist_lastplayed_pos>0.87 0.15</gamelist_lastplayed_pos>
+			
+			<grid-scaled-w>0.98175</grid-scaled-w>
+		</variables>
+		<!--FONT SIZE-->
+		<fontSize name="small">
+			<variables>
+				<system_game_number_fontSize>0.02</system_game_number_fontSize> 
+				<system_game_number_pos>0.78 0.255</system_game_number_pos>
+				<system_favorites_fontSize>0.02</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.028</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+		<fontSize name="medium">
+			<variables>
+				<system_game_number_fontSize>0.025</system_game_number_fontSize> 
+				<system_game_number_pos>0.78 0.255</system_game_number_pos>
+				<system_favorites_fontSize>0.025</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.033</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+		<fontSize name="large">
+			<variables>
+				<system_game_number_fontSize>0.03</system_game_number_fontSize>
+				<system_game_number_pos>0.78 0.255</system_game_number_pos>
+				<system_favorites_fontSize>0.03</system_favorites_fontSize>
+				<system_favorites_pos>0.02 0.255</system_favorites_pos>
+				
+				<gamelist_gamename_pos>0.5 0.11</gamelist_gamename_pos>
+				<gamelist_game_fontSize>0.038</gamelist_game_fontSize>
+				<gamelist_logo_pos>0.5 0.05</gamelist_logo_pos>
+				<gamelist_logo_maxSize>0.5 0.08</gamelist_logo_maxSize>
+			</variables>
+		</fontSize>
+	</aspectRatio>
+
 </theme>
