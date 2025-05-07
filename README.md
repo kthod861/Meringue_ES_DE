@@ -1,7 +1,5 @@
 # Meringue ES DE theme
 
-An interpretation of [Primal (MeringuePersonnal)](https://www.reddit.com/user/MeringuePersonal3407/) theme found on [this thread](https://www.reddit.com/r/ANBERNIC/comments/1ix9124/my_collection/).<br />
-
 Compatible with [ES-DE 3.2.0](https://es-de.org/).<br>
 Aspect ratio : 1:1 / 4:3 / 3:2 / 16:9 / 16:10 / 21:9 <br />
 Gamelist view : Grid only with tiles sizes variant options <br />
@@ -30,6 +28,7 @@ DONE: <br />
 - System infos and controler tweaks in all ratios
 - Ratio management system should be ok now and handle all situations
 
+An interpretation of [Primal (MeringuePersonnal)](https://www.reddit.com/user/MeringuePersonal3407/) theme found on [this thread](https://www.reddit.com/r/ANBERNIC/comments/1ix9124/my_collection/).<br />
 
 Most of the background assets comes from [emuemovies](https://emumovies.com/) thanks to them.<br />
 Big up to "Meringue", "Ant", "SymBuzzer", "Shadow", "LeonSe", "Snapouille" and more for the help they've provided here and there .<br>
